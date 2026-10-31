@@ -1,0 +1,11 @@
+WebLLM 0.2.87, MLC AI, Apache-2.0 (LICENSE).
+Official runtime: https://github.com/mlc-ai/web-llm
+Model: Qwen3-0.6B-q4f16_1-MLC, Qwen Team / MLC AI, Apache-2.0.
+Pinned model revision: 8c14ce481d4c692769976ad52afea453a102df19.
+https://huggingface.co/mlc-ai/Qwen3-0.6B-q4f16_1-MLC
+Browser model library: Qwen3-0.6B-q4f16_1_cs1k-webgpu.wasm, WebLLM v0_2_87/base.
+Original source: https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_87/base/Qwen3-0.6B-q4f16_1_cs1k-webgpu.wasm
+Delivery adaptation: the model library is downloaded from pinned GitHub commit 146ed9cd4b4062e967b017fd2291f7106b50599f. WebLLM is downloaded from the version-pinned esm.sh CDN. Model weights remain on pinned Hugging Face revisions. This preserves browser-only inference within the 8 MiB submission budget.
+Weights: 335,372,288 bytes across nine shards. Tokenizer, model config, wasm and JS add overhead (~360 MB total, depending on transport compression).
+No paid API, server inference, credentials, or connection to the owner's computer. Inference runs in each visitor's browser.
+Legacy CPU fallback: see ../ai/NOTICE.txt. Fallback does not silently download a second model after GPU failure; the visitor chooses compatibility retry.

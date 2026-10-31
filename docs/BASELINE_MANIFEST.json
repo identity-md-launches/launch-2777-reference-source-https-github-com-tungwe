@@ -1,0 +1,422 @@
+{
+  "baseline": "v13-chat-20261031",
+  "production_url": "https://hamster.imdember.com/",
+  "files": [
+    {
+      "path": "dist/_headers",
+      "sha256": "34e98a20cf2e0c4df4dd8ad453d1842b0b1184702818a50fa7618806ac9ab67e"
+    },
+    {
+      "path": "dist/app.mjs",
+      "sha256": "8c8fa17de7aa57b319d7825cce94d46f7f7893d43c8f2d9647155536e2780699"
+    },
+    {
+      "path": "dist/assets/audio/ball.wav",
+      "sha256": "685aa35a36fb0732628d26f4bd858007e5d01b1b6016c3d769d146f517382c59"
+    },
+    {
+      "path": "dist/assets/audio/brush.wav",
+      "sha256": "68280dc93e93d1520dda703b048ff267cde0d6e3fe3a371d89dcf3d040817a2c"
+    },
+    {
+      "path": "dist/assets/audio/cuddle.wav",
+      "sha256": "e89e4a26ff5fb5526ea53c4555522b32cf9b5f1d12c67f87001a351e12801c32"
+    },
+    {
+      "path": "dist/assets/audio/dance.wav",
+      "sha256": "17ea63d6def05448040ce01ee237fb8f4699262c96feec4e31ff72143a33347b"
+    },
+    {
+      "path": "dist/assets/audio/feed.wav",
+      "sha256": "8161852339f87df3f1799a091727a52538820b4d106b3bf8dc180492e31a77d6"
+    },
+    {
+      "path": "dist/assets/audio/manifest.json",
+      "sha256": "4cdb9dda381645034b18d895751b8ec3474033d8088bf9e263e8582272e81e4c"
+    },
+    {
+      "path": "dist/assets/audio/pet.wav",
+      "sha256": "e4b1982600c4a613145d368659ca0ef86de5c4954fc486f4b099e95d0f085b41"
+    },
+    {
+      "path": "dist/assets/audio/README.txt",
+      "sha256": "ed63cb79a473f0369fb75a7fb9ca061bcf2ce5cb5e191e05d34573352b866e1c"
+    },
+    {
+      "path": "dist/assets/audio/seedlight.wav",
+      "sha256": "142efe01df5383e7625e08d9979ce41e981e61d2d6ad86c179ff5f25bf0604d3"
+    },
+    {
+      "path": "dist/assets/audio/sleep.wav",
+      "sha256": "d4a09d33b50b579c5e8a7140acb91518193feb74d387c82aa51b3d0d2a4f6d81"
+    },
+    {
+      "path": "dist/assets/audio/sniff.wav",
+      "sha256": "acac6b24dbff668bdebc42cf302d67a070a586605aa2efc40cb4f9ee8998c571"
+    },
+    {
+      "path": "dist/assets/audio/success.wav",
+      "sha256": "dda3b134e6079b2b6c3469c59a587d44185c8a1832fc1e7f2b2edafd3b0153e7"
+    },
+    {
+      "path": "dist/assets/audio/wake.wav",
+      "sha256": "98026560a1f3dab23bdaf8f45c3725fbd01f7cb1f3e0e79ab728c2d06a111c80"
+    },
+    {
+      "path": "dist/assets/audio-web/ball.9016c68910a6.flac",
+      "sha256": "9016c68910a6e5d9f0c6c7e3f6c6944f25e166402325cb5c22adbc768880d53e"
+    },
+    {
+      "path": "dist/assets/audio-web/brush.59fe39d6f012.flac",
+      "sha256": "59fe39d6f012f142ffe58db209b0581cc8040fdcd2f98c20112b16f345ad847d"
+    },
+    {
+      "path": "dist/assets/audio-web/cuddle.b951e8495908.flac",
+      "sha256": "b951e849590881c9bacee4434047860c591fb6e33bb303e5dd2a3c3e247b9b68"
+    },
+    {
+      "path": "dist/assets/audio-web/dance.2cf591bd3146.flac",
+      "sha256": "2cf591bd31460f31ad20269cfaab75819fe0ae1a9bd3ce03260d0380da6239d8"
+    },
+    {
+      "path": "dist/assets/audio-web/feed.6b4fee46f0c1.flac",
+      "sha256": "6b4fee46f0c166764fc4c8250ef1ba83ac70b909f9eba055483be4f8039bb943"
+    },
+    {
+      "path": "dist/assets/audio-web/pet.c63e1b5ad001.flac",
+      "sha256": "c63e1b5ad001197582d14063dc199e0cd13aaa146d62ba98ffe2a1173f21ca06"
+    },
+    {
+      "path": "dist/assets/audio-web/seedlight.52f1d3eb886f.flac",
+      "sha256": "52f1d3eb886f6f5082b2f8437f6abd41c79052f9b05f2c7309680ec1231410cb"
+    },
+    {
+      "path": "dist/assets/audio-web/sleep.9a8f52f6258b.flac",
+      "sha256": "9a8f52f6258b8a9e4a62822aea54bfb3fb0af471aca4f726126228f2a964620a"
+    },
+    {
+      "path": "dist/assets/audio-web/sniff.9d480cf44ebe.flac",
+      "sha256": "9d480cf44ebeaecd702ed7b3f37f8b8b3f9deb08b8329136c62822c6e46a3c01"
+    },
+    {
+      "path": "dist/assets/audio-web/success.47e356c4b3cd.flac",
+      "sha256": "47e356c4b3cd7e043931e6f61f19eaff536ba48b7f620f7ea2048dfaa1e77ed2"
+    },
+    {
+      "path": "dist/assets/audio-web/wake.cb9bc2df0004.flac",
+      "sha256": "cb9bc2df0004b8465b2632a796761d0f79c6ae9cfe708c5a6a547a935a8f097f"
+    },
+    {
+      "path": "dist/assets/code/chunk-IKJRVXUL.js",
+      "sha256": "c6a559f47ba0f882c44c11c64f3e3a920b31707e7182ebd19be084a85daa1a48"
+    },
+    {
+      "path": "dist/assets/code/chunk-LYYY7Q7L.js",
+      "sha256": "ced4036ed02d9da8020a4e61f12605d605c5d4349f19800d00b9fd6cbea1b4d4"
+    },
+    {
+      "path": "dist/assets/code/chunk-LYYY7Q7L.js.LEGAL.txt",
+      "sha256": "e0e6a5cbc15401c7e1968a0840a230e8c294aa1b605e2111d38750d6a9f7b58a"
+    },
+    {
+      "path": "dist/assets/code/studio-HGPW3O5E.js",
+      "sha256": "a58f041d8adce3d8b2e03bd328ee730ccb8ab6f84b708f2f9a8f4a5a8f0f7f08"
+    },
+    {
+      "path": "dist/assets/code/studio-UTENGH53.js",
+      "sha256": "a0af1254b89e788c9d3c3bb4c229600940378fa3bfa856aaf9831301fc811d7c"
+    },
+    {
+      "path": "dist/assets/growth/01-tiny-bean.glb",
+      "sha256": "029c0a8a0b76416ed69b12f3b5c15f0bf89628d46eb91eb2ed941f4160ea8f27"
+    },
+    {
+      "path": "dist/assets/growth/02-milk-mochi.glb",
+      "sha256": "3ba6e04774578fbf166f28f002d7b716368ea7146fddaa2fe55d1cbe43d3c9dc"
+    },
+    {
+      "path": "dist/assets/growth/03-curious-baby.glb",
+      "sha256": "bd671af70ba326ae6a5762e103f99f1021d88ee40f52601ce7fc6a68f9e01182"
+    },
+    {
+      "path": "dist/assets/growth/04-lively-youngster.glb",
+      "sha256": "9ae199208c7f87f9f9a8cb1c02aef62d4e297def95026a58671e4040db67c8cc"
+    },
+    {
+      "path": "dist/assets/growth/05-little-guardian.glb",
+      "sha256": "95886ea7352c9c01010077dbf23b6e10057c47cbb612a6292939c37ee0157d39"
+    },
+    {
+      "path": "dist/assets/growth-web/01-tiny-bean.dac7f3063802.glb",
+      "sha256": "dac7f306380249b6103b516fecee657afca5d331e3bc3c93ce2f730ca27e14ac"
+    },
+    {
+      "path": "dist/assets/growth-web/02-milk-mochi.147ef9cf7b95.glb",
+      "sha256": "147ef9cf7b959d26c18e06f6a4c33d02dc265afe3265f1db85d5fd44084b7643"
+    },
+    {
+      "path": "dist/assets/growth-web/03-curious-baby.194f2a9fe52b.glb",
+      "sha256": "194f2a9fe52b65c948ee9d267387170bd0f5032c5cbe79e9aa64b66b22f1d7f2"
+    },
+    {
+      "path": "dist/assets/growth-web/04-lively-youngster.1e24e8760f25.glb",
+      "sha256": "1e24e8760f25de9730f958b8efa3241ccabe1a27bab54bd78703f430d3cf1afd"
+    },
+    {
+      "path": "dist/assets/growth-web/05-little-guardian.655baf51954f.glb",
+      "sha256": "655baf51954fa7def8097cc12891c021225ac79f2abea90fac2157a77057f43f"
+    },
+    {
+      "path": "dist/audio-assets.mjs",
+      "sha256": "0e86c077c6b618008619dee2e1fd6e3625ead08f58838ad89983c705e5b737da"
+    },
+    {
+      "path": "dist/audio-core.mjs",
+      "sha256": "89055986e145b5e9d6ff240da0ab7780a66f33d45798c65d37c2b6948e3663b7"
+    },
+    {
+      "path": "dist/audio-ui.mjs",
+      "sha256": "3e6a33c45631fddebe48d0a71c95fe202edd87b08b30920b1d1bf07391a87cb7"
+    },
+    {
+      "path": "dist/audio.css",
+      "sha256": "69b9fe6a4b9babd8a14f486537a2a0b182c3c4e8d44fd053bd5dba0ab5aeb0c7"
+    },
+    {
+      "path": "dist/browser-chat.css",
+      "sha256": "17c854c4e30f3e1975c370ef2f1c549cb491af30844aae2d249f039f77c8a064"
+    },
+    {
+      "path": "dist/browser-chat.mjs",
+      "sha256": "e56855d0052b44ea90131bde0b7b2bc7e182f170cb8519d8e4575ec0ad59a849"
+    },
+    {
+      "path": "dist/browser-storage.mjs",
+      "sha256": "46e6281c7e0372a02f7435af68db14af78216b81739b14c8c824b484f2d2ae27"
+    },
+    {
+      "path": "dist/character-view.mjs",
+      "sha256": "a1052b410f25d606875f13f3699322bee82a877b00d28146722231c3da7c886a"
+    },
+    {
+      "path": "dist/chat-backend.mjs",
+      "sha256": "7a87b4f34f330643adf40ed0c2910f55f171cc92e0fe4ecd3eb66f1e80542dce"
+    },
+    {
+      "path": "dist/chat-core.mjs",
+      "sha256": "a9212b62d832cc54f816bebdac8f957e16b89883933800c3d1ab44403018b29a"
+    },
+    {
+      "path": "dist/chat-worker.mjs",
+      "sha256": "b7ebedb14a698007a21b195ec3debd8f94d05fe8899204ad7dff4086253783fb"
+    },
+    {
+      "path": "dist/chat.css",
+      "sha256": "f16dfc485665d4c9f79021d58a32ea611834f62314524631cbf2e347e0f75708"
+    },
+    {
+      "path": "dist/companion-engine.mjs",
+      "sha256": "2834932bdeb42b548f52f41d0bf6f48a2ea50ca184b651560cb9204989eb2ffd"
+    },
+    {
+      "path": "dist/companion-i18n.mjs",
+      "sha256": "b49df636d022261182797846c7b6553a11291a62680221e054ecdb8b90c26493"
+    },
+    {
+      "path": "dist/data.mjs",
+      "sha256": "25fbd32e85c037c31e91dd7a92d36eaf065c294572294e19dddd84d5a2123349"
+    },
+    {
+      "path": "dist/deformation.mjs",
+      "sha256": "3dd99427c585e619ec608519b61f94f8718d5adb51ee54bcd3bcb86aca527ea3"
+    },
+    {
+      "path": "dist/demo.mjs",
+      "sha256": "4655551f235a1fc70b9d86275bbf2a9c1f735fa0f29ff2454464e2f3de70b569"
+    },
+    {
+      "path": "dist/feeding.mjs",
+      "sha256": "38ceb358443982fe75b808466d2df572170e628b17e7eed212d703617dca2b53"
+    },
+    {
+      "path": "dist/growth-clock.mjs",
+      "sha256": "051154a018e4b079d0dd537c0f581d6579c6ad4011d110259a6604e8931bc029"
+    },
+    {
+      "path": "dist/growth-models.mjs",
+      "sha256": "d2dc0585eb6e85903d3a7c401045a504737641b4a6084fe9a3a628df4db0471d"
+    },
+    {
+      "path": "dist/i18n.mjs",
+      "sha256": "5118695f4728ad7cc668c6d2923af8d1de50e4167ea095287102c1b1b9a847de"
+    },
+    {
+      "path": "dist/idle-behavior.mjs",
+      "sha256": "f771d5be3eb6e403ec03a0d3ea73130ae21763931a1989a62939c946ee66c4b8"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "0e63931efeba23468200e9b1f9200454bb6b7bfcc235e7841ab7a8bce9397368"
+    },
+    {
+      "path": "dist/life-engine.mjs",
+      "sha256": "62d1550b2cc8c9f5f65b0b33c10bcb00445f8c4931753160e57353a338a75504"
+    },
+    {
+      "path": "dist/life-ui.mjs",
+      "sha256": "13ce36f177030096a1513be21383a23010b79383d219fb406f74302888076374"
+    },
+    {
+      "path": "dist/life.css",
+      "sha256": "01a4e65bafe187d7c3487061f37ed451b5d557061b83f6522f0dddd8545b755b"
+    },
+    {
+      "path": "dist/observatory/index.html",
+      "sha256": "c9d4b4389a56b35bbaa911366dc3eb9e5294686ba6361c47b72c0a3c59ed3cd5"
+    },
+    {
+      "path": "dist/overlay/index.html",
+      "sha256": "af5ee67723edc186478351d6a338247055b4eadbcf36cc6d6e9a8c0add301dcf"
+    },
+    {
+      "path": "dist/overlay.html",
+      "sha256": "af5ee67723edc186478351d6a338247055b4eadbcf36cc6d6e9a8c0add301dcf"
+    },
+    {
+      "path": "dist/page-lifecycle.mjs",
+      "sha256": "2d68e8f6978c12521c5e1740664833dee55fa113761e47c71c577dba18288d13"
+    },
+    {
+      "path": "dist/pet-3d.mjs",
+      "sha256": "dbc324f43736207aabfba593681edafb6ecc757288195dfa0a70e4fd3372d144"
+    },
+    {
+      "path": "dist/pet-engine.mjs",
+      "sha256": "1a880dfa98f5bf4c971154991dcd247368a45e9f4dfbdbd13df0fe5d4c999dd8"
+    },
+    {
+      "path": "dist/pet-model.json",
+      "sha256": "b8d572f17a5bd693d104fe9631def36e9321fe537cfaa7fa5ac026cdfdeb20a3"
+    },
+    {
+      "path": "dist/pet-ui.mjs",
+      "sha256": "00ea7ebc68b059ee382f050af771846a847bbc1247869e7461f210cdb4816158"
+    },
+    {
+      "path": "dist/pose-blend.mjs",
+      "sha256": "0cc34a47a1435a4bfbf3610c709931e65889defc49f49b3a1384db82231810ce"
+    },
+    {
+      "path": "dist/presence.mjs",
+      "sha256": "942dc8fe6c001df9acfe4543860b84a0589c914e9c45662119767e8fe2c97041"
+    },
+    {
+      "path": "dist/public-runtime.mjs",
+      "sha256": "40abeab2435c080d27cc53b3c02caaa70bd7a762005f99ff03b8e1c68a389989"
+    },
+    {
+      "path": "dist/session-store.mjs",
+      "sha256": "036b8700ce69684a389c6e560460216b7170bbef2319256ce8818c217b5bc36b"
+    },
+    {
+      "path": "dist/source/index.html",
+      "sha256": "73fe5dc659769d4f8bb512edbdbd440854537050cb00be3583864e814bdbe50f"
+    },
+    {
+      "path": "dist/studio.css",
+      "sha256": "eb55b4d68b3d4e195d57a4b6628e7377846ce79748c4e8c36c5d769db9a3427f"
+    },
+    {
+      "path": "dist/studio.mjs",
+      "sha256": "348afb278cb908e696ff478bc6df549cd1de3ded331db04dd8dbc610e671b910"
+    },
+    {
+      "path": "dist/styles.css",
+      "sha256": "3ba4829e41848767c652f7a30e2317c22cebb515d94fd732604983f6b332007b"
+    },
+    {
+      "path": "dist/touch-reactions.mjs",
+      "sha256": "6376da18e1bd1b91059be64908ac4b4b009ad05d3e341f5d58a8db881a6b5982"
+    },
+    {
+      "path": "dist/touch-ui.mjs",
+      "sha256": "e530e7e78383e473516fca8618b88a756925875610dc2235edee6966feae3122"
+    },
+    {
+      "path": "dist/vendor/ai/LICENSE-onnxruntime",
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "dist/vendor/ai/LICENSE-opencc",
+      "sha256": "960f7fc16d8baa126802316a7df9078a383af4fb6bc60033adb28e85c08d5e5e"
+    },
+    {
+      "path": "dist/vendor/ai/LICENSE-transformers",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "dist/vendor/ai/NOTICE.txt",
+      "sha256": "49fe674723db6aac8321e6289897153759cfdd2c3f49a0f7316bd7bd7c3c99de"
+    },
+    {
+      "path": "dist/vendor/ai/OPENCC-THIRD-PARTY.txt",
+      "sha256": "42c7dbe71c178fcca97ba945e9ac9ff360fb69bbfea4cb50556f6c65bfa59806"
+    },
+    {
+      "path": "dist/vendor/ai/opencc.mjs",
+      "sha256": "f11354bf1dc5fdc4a53a5cfbf8808fe832bc27640a69d96fb60e547090010214"
+    },
+    {
+      "path": "dist/vendor/ai/ort-wasm-simd-threaded.jsep.mjs",
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "path": "dist/vendor/ai/ort-wasm-simd-threaded.jsep.wasm",
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "path": "dist/vendor/ai/transformers.mjs",
+      "sha256": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa"
+    },
+    {
+      "path": "dist/vendor/BufferGeometryUtils.js",
+      "sha256": "022b35a5464deba7a9a7929b0ece15e088b1b30c889319f9fbf57ff8effb58e4"
+    },
+    {
+      "path": "dist/vendor/GLTFLoader.js",
+      "sha256": "044a0d202745641ac4efc3a84fcf7f48fec9f98bfcac3b0cdd0a310e5bda24d0"
+    },
+    {
+      "path": "dist/vendor/LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "dist/vendor/three.core.js",
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "dist/vendor/three.module.js",
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "dist/vendor/webllm/LICENSE",
+      "sha256": "87935f332472db09253871326ef23d5d6a45f4fd2e6c96772f72052866dfab0d"
+    },
+    {
+      "path": "dist/vendor/webllm/NOTICE.txt",
+      "sha256": "bc78f79695f5a80b66a7a2c279e34c1019a4ee6d91d42e4d6b53d253eb0094b5"
+    },
+    {
+      "path": "dist/vendor/webllm/qwen3-0.6b-q4f16-v0_2_87.wasm",
+      "sha256": "b277797fff1240baaba6782b7ba671834f861022b9283c93fcb4bb7c06d0373d"
+    },
+    {
+      "path": "dist/vendor/webllm/webllm-0.2.87.mjs",
+      "sha256": "ef7a75be3e98c3d8fb756ebe5dd17ae0bfb49099f7235988e801d0a373956f4f"
+    },
+    {
+      "path": "dist/visual-state.mjs",
+      "sha256": "667af5eb7ea9db9e390df74c31d353042eb917323ade4a0bd7eaccebad402d36"
+    }
+  ]
+}

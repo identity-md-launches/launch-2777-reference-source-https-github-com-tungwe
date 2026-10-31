@@ -1,0 +1,14 @@
+# Submission budget: docs/SUBMISSION_BUDGET.md (8 MiB total).
+node_modules/
+.npm/
+.cache/
+.pnpm-store/
+.playwright/
+.env
+.env.*
+.local-*/
+*.pem
+*.key
+*.log
+.DS_Store
+test/scratch/

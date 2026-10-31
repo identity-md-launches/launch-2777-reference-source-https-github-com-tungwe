@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "renderer": "3d-only",
+  "stages": {
+    "baby": "/assets/growth/01-tiny-bean.glb",
+    "young": "/assets/growth/02-milk-mochi.glb",
+    "junior": "/assets/growth/03-curious-baby.glb",
+    "grown": "/assets/growth/04-lively-youngster.glb",
+    "star": "/assets/growth/05-little-guardian.glb"
+  },
+  "source": "Owner-created Tripo models",
+  "textureMaxSize": 2048
+}

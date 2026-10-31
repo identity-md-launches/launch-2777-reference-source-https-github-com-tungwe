@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-tiny-bean.1d931e5de814.glb",
+    "bytes": 206180,
+    "vertices": [
+      4322,
+      4322
+    ]
+  },
+  {
+    "file": "02-milk-mochi.417230eb551f.glb",
+    "bytes": 192852,
+    "vertices": [
+      4037,
+      4037
+    ]
+  },
+  {
+    "file": "03-curious-baby.d8d9a3731957.glb",
+    "bytes": 208560,
+    "vertices": [
+      4457,
+      4457
+    ]
+  },
+  {
+    "file": "04-lively-youngster.de8a09e64f26.glb",
+    "bytes": 215004,
+    "vertices": [
+      4481,
+      4481
+    ]
+  },
+  {
+    "file": "05-little-guardian.5db5f1b0eb2f.glb",
+    "bytes": 222772,
+    "vertices": [
+      4506,
+      4506
+    ]
+  }
+]

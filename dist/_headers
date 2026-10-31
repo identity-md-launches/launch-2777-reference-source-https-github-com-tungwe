@@ -1,0 +1,4 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; connect-src 'self' blob: https://api.squeekchain.com https://huggingface.co https://*.huggingface.co https://*.hf.co https://ethereum-rpc.publicnode.com https://eth.drpc.org https://ethereum-sepolia-rpc.publicnode.com https://sepolia.drpc.org https://cdn.jsdelivr.net https://esm.sh https://raw.githubusercontent.com https://eth.llamarpc.com https://0xrpc.io; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; base-uri 'none'; frame-ancestors 'none'; form-action 'none'

@@ -1,0 +1,12 @@
+Browser AI: Transformers.js 3.8.1, Hugging Face, Apache-2.0.
+OpenCC-JS 1.4.2, MIT (LICENSE-opencc); dictionary licenses in OPENCC-THIRD-PARTY.txt.
+https://github.com/huggingface/transformers.js
+License: LICENSE-transformers in this directory.
+Includes ONNX Runtime Web 1.22.0-dev.20250409-89f8206ba4, Microsoft, MIT.
+https://github.com/microsoft/onnxruntime
+License: LICENSE-onnxruntime in this directory.
+Model: Qwen3-0.6B-ONNX (Qwen Team, Apache-2.0), converted by ONNX Community.
+https://huggingface.co/onnx-community/Qwen3-0.6B-ONNX
+Revision 58ca03a5e7b354b480b1a82b34bde8dc7b854cc0. Model downloaded by each browser from Hugging Face; model weights are not in this archive.
+
+Delivery adaptation: Transformers.js, ONNX Runtime WASM and OpenCC are downloaded from exact-version jsDelivr URLs by the browser worker after Send. Licenses remain local. No inference API is used.

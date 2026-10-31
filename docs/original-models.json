@@ -1,0 +1,27 @@
+[
+  {
+    "file": "01-tiny-bean.glb",
+    "sha256": "029c0a8a0b76416ed69b12f3b5c15f0bf89628d46eb91eb2ed941f4160ea8f27",
+    "bytes": 2404732
+  },
+  {
+    "file": "02-milk-mochi.glb",
+    "sha256": "3ba6e04774578fbf166f28f002d7b716368ea7146fddaa2fe55d1cbe43d3c9dc",
+    "bytes": 2367624
+  },
+  {
+    "file": "03-curious-baby.glb",
+    "sha256": "bd671af70ba326ae6a5762e103f99f1021d88ee40f52601ce7fc6a68f9e01182",
+    "bytes": 2603804
+  },
+  {
+    "file": "04-lively-youngster.glb",
+    "sha256": "9ae199208c7f87f9f9a8cb1c02aef62d4e297def95026a58671e4040db67c8cc",
+    "bytes": 2724400
+  },
+  {
+    "file": "05-little-guardian.glb",
+    "sha256": "95886ea7352c9c01010077dbf23b6e10057c47cbb612a6292939c37ee0157d39",
+    "bytes": 2799184
+  }
+]

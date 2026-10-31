@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {Companion} from './dist/companion-engine.mjs';
+import {TOUCH_CHOICES,TOUCH_REACTIONS,touchZone,touchPose,touchWords} from './dist/touch-reactions.mjs';
+test('all touch zones cycle through actions without granting repeated care rewards',()=>{let now=100000;const c=new Companion(()=>now);for(const [zone,choices] of Object.entries(TOUCH_CHOICES)){for(const expected of [...choices,choices[0]]){now+=1200;c.command('touch',{zone});assert.equal(c.cue.type,expected);}}assert.equal(c.pet.snapshot().xp,0);assert.equal(c.pet.snapshot().life.bond,2);});
+test('three taps trigger alternating surprises; holds and waking are separate and invalid inputs rejected',()=>{let now=100000;const c=new Companion(()=>now);for(let i=0;i<3;i++){c.command('touch',{zone:'head'});now+=300;}assert.equal(c.cue.type,'twirl');for(let i=0;i<3;i++){c.command('touch',{zone:'belly'});now+=300;}assert.equal(c.cue.type,'happyhop');c.command('touch',{zone:'head',gesture:'hold'});assert.equal(c.cue.type,'snuggle');assert.equal(c.pet.snapshot().xp,0);assert.throws(()=>c.command('touch',{zone:'bad'}));assert.throws(()=>c.command('touch',{zone:'head',gesture:'bad'}));now+=300;c.command('nap');c.command('touch',{zone:'nose'});assert.equal(c.cue.type,'wake');assert.equal(c.pet.snapshot().life.sleeping,false);});
+test('drag hit zones and all poses are bounded, localized and honor reduced motion',()=>{
+ const zone=(x,y,z=.4)=>touchZone(x,y,z,1,1,1);
+ assert.equal(zone(0,.6),'nose');assert.equal(zone(.25,.62),'cheek');assert.equal(zone(0,.9),'head');assert.equal(zone(0,.3),'belly');assert.equal(zone(.4,.3),'paw');assert.equal(zone(.2,.1),'feet');
+ for(const type of Object.keys(TOUCH_REACTIONS)){assert.ok(touchWords(type,'en').speech);assert.ok(touchWords(type,'zh-Hant').speech);for(let age=0;age<=3;age+=.1){const p=touchPose(type,age);assert.ok(Object.values(p).every(Number.isFinite));assert.ok(p.sx>.8&&p.sy>.8&&p.y<=.3);}assert.deepEqual(touchPose(type,1,true),touchPose(type,3));}
+});
