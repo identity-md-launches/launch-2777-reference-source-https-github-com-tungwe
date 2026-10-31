@@ -33,6 +33,7 @@ node tools/revision-check.mjs
 node tools/expression-gallery.mjs
 node tools/live-read.mjs
 node tools/check-budget.mjs
+node tools/hosting-check.mjs
 ```
 
 The scripts manage their own temporary preview servers and close them. Browser artifacts in `test/scratch/` are disposable; the submitted report and selected evidence are under `artifacts/`. Typecheck covers both new TypeScript modules. Existing JavaScript is exercised by the baseline and reliability tests and checked by the production bundler.
@@ -42,6 +43,12 @@ Actual worker results and coverage limits: [validation report](artifacts/validat
 Evidence regenerated on 31 October 2026 is included in the submission: [executed check results](artifacts/check-results.json), [dated reads of both networks](artifacts/live-read.json), [24 bilingual rehearsal cards](artifacts/card-gallery.jpg) and [responsive screenshots](artifacts/responsive-gallery.jpg). All 76 pinned baseline tests and 112 total tests passed. The report records browser/AI conditions, the 15/16 design-probe result and unperformed checks. Named evidence files are explicitly allowed by `.gitignore` within the existing 845,000-byte artifacts budget.
 
 The revision fixes batched canvas visibility, preserves each played gesture in recent history, and removes the repeated unavailable wheel message. The gallery shows three captured phases of each of the twelve simulated sequences; [its recorded checks](artifacts/expression-results.json) include the English and Traditional Chinese cards. The budget check requires the report and gallery to exist and be nonempty before delivery. Browser scripts require the Playwright browser package; unperformed browser/AI checks are listed in the report.
+
+## Hosted address and the Genesis VISIT link
+
+The working platform address is `https://pip-squeekchain-hamster-com-576c.imd.site/`. It serves the same IPFS CID as the ENS name `pip-squeekchain-hamster-com-576c.identitymd.eth`. The Genesis VISIT button opens `https://pip-squeekchain-hamster-com-576c.identitymd.eth.limo/` instead. That is the `site.url` the IMD API still publishes, and eth.limo currently fails the TLS handshake for every `*.identitymd.eth.limo` name. No setting in this repository or export controls that URL, and an in-page redirect cannot run before a TLS failure. The fix needs a platform change: IMD's site record, Genesis's IMD import, or eth.limo's certificate for `identitymd.eth` subnames. The diagnosis, before/after URLs and responsible components are in the [hosting report](artifacts/hosting-repair.md).
+
+`node tools/hosting-check.mjs` re-runs the read-only checks with normal certificate validation and writes [hosting-check.json](artifacts/hosting-check.json). Use it to confirm the link once the platform changes. The owner's deployment at `https://hamster.imdember.com/` is separate and is not modified here.
 
 ## Chain behavior
 

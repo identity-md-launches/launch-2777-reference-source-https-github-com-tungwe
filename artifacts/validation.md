@@ -1,5 +1,26 @@
 # Pip validation and limitations — 31 October 2026
 
+## Hosting-repair continuation (job 042fe32c), 31 October 2026, 23:00–23:30 UTC
+
+Scope: why the Genesis VISIT link fails, and whether supported controls can repair it. **Not repaired: a platform blocker remains.** The full diagnosis, before/after URLs and responsible components are in [hosting-repair.md](hosting-repair.md). Raw results are in [hosting-check.json](hosting-check.json). Application source, assets and the accepted `dist/` export are unchanged.
+
+| Executed command | Actual result |
+| --- | --- |
+| `node tools/hosting-check.mjs` (Node default TLS validation) | Exit 0. eth.limo VISIT URL: `EPROTO`, TLS alert 80 over IPv4 and IPv6. Control `fantasy-hamster.identitymd.eth.limo` fails the same way, while `app.ens.eth.limo` returns 200. `…576c.imd.site/`, `/source/` and the entry bundle return 200 with a valid `*.imd.site` certificate and the current CID. `hamster.imdember.com/` and `/source/` return 200. IMD `site.url` on both API hosts is still the eth.limo URL. The ENS contenthash decodes to `bafybeieud3pf6x2egb5yqzygp2pykn7spkrpmudszfjmk3jbinh2x7qozi` |
+| `curl` and `openssl s_client` (no insecure flags) | Same outcome: the eth.limo handshake is aborted by the server, while the imd.site and imdember.com certificates verify (return code 0) |
+| `npm ci` | Exit 0; 44 packages, kept outside Git |
+| `npm run build` | Exit 0; 109 files; export verifier passed. Bundles differed only in embedded dependency-path labels and the resulting hashes, so the accepted export was restored byte-for-byte, as in the previous revision |
+| `node tools/verify-export.mjs` on the restored export | Exit 0; 109 files, five GLBs, relative URLs and share metadata |
+| `npm run typecheck` | Exit 0; 2 TypeScript modules |
+| `npm test` | Exit 0; 112/112 passed, 0 failed or skipped |
+| `npm run test:browser` (Playwright Chromium, headless) | Exit 0; 15/15 interaction checks passed, including the 390 first screen, no overflow at 320/390/768/1440, feeding, rehearsals, focus, reduced motion and no missing local resources |
+| `node .imd/reads/skills/design-critic/scripts/taste.mjs --out test/scratch/taste` | Exit 0; **16/16 checks passed**. The 390 screenshot was inspected: the hamster, Care & play and Chat actions, and the food controls are on the first screen |
+| `node tools/check-budget.mjs` | Exit 0; see `submission-summary.json` |
+
+Better Interface: no interface source changed in this continuation, so the six-domain review, DESIGN.md and findings below still describe the shipped export. The probe and browser checks above were re-run on it. Limitations: the Genesis project record requires the owner's login, so its stored `demoUrl` was inferred from the public Genesis bundle, the IMD record and the owner's report, not read directly. This job could not run a Genesis refresh, and no platform-side change was made or verified.
+
+## Earlier revision record
+
 Complete for the reopened **missing-evidence revision**. The report, twelve-sequence gallery and per-gesture results now exist at the paths linked by the README. These are worker observations, not independent certification. Application source, saved-state formats, five models, dependencies and the accepted production export are unchanged.
 
 ## Finding, cause and delivery

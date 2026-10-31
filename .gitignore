@@ -24,6 +24,8 @@ test/scratch/
 !artifacts/card-gallery.jpg
 !artifacts/responsive-gallery.jpg
 !artifacts/submission-summary.json
+!artifacts/hosting-repair.md
+!artifacts/hosting-check.json
 
 # Revision response: at most 4,096 bytes within the remaining-paths budget.
 !/.imd-responses.json
