@@ -123,7 +123,7 @@ export async function initPet3D({getState,getNow,getLanguage,send,overlay,onLoad
  const resize=()=>{const {width,height}=holder.getBoundingClientRect();if(!width||!height)return;renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();};
  const resizer=new ResizeObserver(resize);cleanupStack.push(()=>resizer.disconnect());resizer.observe(holder);resize();
  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),frameMs=matchMedia('(pointer: coarse)').matches?33:16;let previous=0,active=true,raf=0,contextLost=false,paused=false;
- const observer=new IntersectionObserver(entries=>{active=entries[0].isIntersecting;if(!active)interruptIdle();});cleanupStack.push(()=>observer.disconnect());observer.observe(canvas);
+ const observer=new IntersectionObserver(entries=>{active=entries.at(-1).isIntersecting;if(!active)interruptIdle();});cleanupStack.push(()=>observer.disconnect());observer.observe(canvas);
  canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();contextLost=true;interruptIdle();onLoading(false,true);});
  canvas.addEventListener('webglcontextrestored',()=>{contextLost=false;onLoading(false);});
  const visibility=()=>{interruptIdle();cancelTouch();presence.leave();previous=0;};document.addEventListener('visibilitychange',visibility);cleanupStack.push(()=>document.removeEventListener('visibilitychange',visibility));

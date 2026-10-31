@@ -38,6 +38,8 @@ At 740px and below, the studio becomes a single column with 16px gaps. The stage
 
 Activity cards occupy their own space inside the companion container. At 1120px and above, a visible card sits in a 220px column beside the model; below that it stacks beneath the character/gesture controls, away from the face and projected mouth. History reopening scrolls the requested card into view without moving keyboard focus. The invitation is part of the pet scene, with a held 3D paw/head pose and one keyboard alternative.
 
+When wheel telemetry is unavailable, the speech bubble carries the waiting message once. The reading footer is empty until a fresh sample can supply RPM/time; its provenance line remains. The canvas pauses while hidden or offscreen and uses the last entry in each visibility batch to resume when it returns onscreen.
+
 Observed Chromium widths: 320, 390, 768 and 1440px. The first 390×844 screen showed the model and all three snack controls. Actual browser-native zoom, physical phones and RTL presentation were not tested; 200% root text enlargement was checked separately. English and Traditional Chinese are supported; this is not an RTL product.
 
 ## Elevation & depth
@@ -62,6 +64,8 @@ Use 20px radii for stage/panels, 14px for the activity card and 12px for snack c
 | Browser AI | `browser-chat.mjs`, `chat-core.mjs`, `chat-worker.mjs` | Optional Send-to-prepare flow, visible first-download cost, local inference, Stop/retry/compatibility states and bounded context. No wallet, account or paid inference API. |
 
 Interactive states use native disabled controls and visible hover/pressed/focus styles. Comfortable actions are 44px high; smaller incumbent controls meet the 24px minimum/spacing test. Focus uses a 3px perimeter with 3px offset. Body links have underlines rather than relying on color alone. The card has one polite announcement region; it does not duplicate the hamster speech region. The separate join caption announces an explicit user response.
+
+Played chain history stores the selected motion and reuses its caption when reopened or translated. Observed-only entries and older saves without a recorded motion use the event facts without inventing a gesture. These additions stay in the separate chain save; existing pet saves need no migration.
 
 Reduced motion removes CSS entrances and uses static chain poses, with no hopping/twirling/particle bursts. Gentle is default; Lively adds bounded ear/nose detail and amplitude. Neither changes polling, event frequency, reward speed or particle count. Chain gestures reuse the existing unrigged morph system: a victory paw/weight shift is the expressive alternative to pretending that a separate foot or eyelid bone exists.
 

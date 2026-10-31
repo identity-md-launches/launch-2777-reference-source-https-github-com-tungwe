@@ -89,7 +89,7 @@ export class ChainMonitor{
   }catch(e){if(this.hidden()){this.status='paused';return;}this.failures++;this.status='unavailable';this.error=e.message;this.nextAt=this.clock()+Math.max(e.retryAfter||0,Math.min(POLICY.maxBackoff,POLICY.poll*2**Math.min(this.failures-1,4)));this.emit();}
   finally{this.busy=false;}
  }
- markPlayed(event){const item=this.data.history.find(e=>identity(e)===identity(event));if(item)item.played=true;this.emit();}
+ markPlayed(event,variant){const item=this.data.history.find(e=>identity(e)===identity(event));if(item){item.played=true;if(Number.isInteger(variant)&&variant>=0&&variant<9)item.variant=variant;}this.emit();}
 }
 export class ReactionQueue{
  constructor({clock=Date.now,cooldown=POLICY.cooldown}={}){this.clock=clock;this.cooldown=Math.max(15000,cooldown);this.items=[];this.last=-Infinity;}

@@ -38,7 +38,7 @@ function render(){
  const goal=s.goal,goalText=goal?`${Math.floor(goal.progress)} / ${goal.target} ${t('metres')}`:t('noGoal');
  if(overlay){$('overlay-goal').textContent=goal?`${t(goal.state==='complete'?'goalComplete':'goalActive')} · ${goalText}`:'';return;}
  $('cheers').textContent=s.cheers;$('cheer').textContent=t('cheer').replace('Pip',s.name);
- $('reading').textContent=ready?`${s.sample.rpm.toFixed(1)} ${t('rpm')} · ${new Date(s.sample.observedAt||s.sample.at).toLocaleTimeString(lang==='en'?'en-GB':'zh-TW',{hour12:false})}`:t('unknown');
+ $('reading').textContent=ready?`${s.sample.rpm.toFixed(1)} ${t('rpm')} · ${new Date(s.sample.observedAt||s.sample.at).toLocaleTimeString(lang==='en'?'en-GB':'zh-TW',{hour12:false})}`:'';
  $('goal-number').textContent=goal?goalText:'—';$('goal-label').textContent=t(!goal?'noGoal':goal.state==='complete'?'goalComplete':'goalActive');$('goal-progress').value=goal?Math.min(100,100*goal.progress/goal.target):0;
  $('start-goal').textContent=t(goal?'restart':'start');$('cancel-goal').disabled=!goal||!online;
  const guess=s.guess;

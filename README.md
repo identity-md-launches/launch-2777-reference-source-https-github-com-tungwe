@@ -29,13 +29,17 @@ npx playwright install chromium
 npm run test:browser
 npm run test:chains:browser
 npm run test:accessibility
+node tools/revision-check.mjs
 node tools/expression-gallery.mjs
 node tools/live-read.mjs
+node tools/check-budget.mjs
 ```
 
 The scripts manage their own temporary preview servers and close them. Browser artifacts in `test/scratch/` are disposable; the submitted report and selected evidence are under `artifacts/`. Typecheck covers both new TypeScript modules. Existing JavaScript is exercised by the baseline and reliability tests and checked by the production bundler.
 
 Actual worker results and coverage limits: [validation report](artifacts/validation.md), [implemented design](DESIGN.md), [chain manifest](docs/chain/manifest.json), [gesture gallery](artifacts/expression-gallery.jpg). The supplied 76 tests remain unchanged and are part of the larger test suite. Browser replay tests use recorded public receipts and explicitly report that they are historical replay, not newly arriving live events.
+
+The revision fixes batched canvas visibility, preserves each played gesture in recent history, and removes the repeated unavailable wheel message. The gallery shows three captured phases of each of the twelve simulated sequences; [its recorded checks](artifacts/expression-results.json) include the English and Traditional Chinese cards. The budget check requires the report and gallery to exist and be nonempty before delivery. Browser scripts require the Playwright browser package; unperformed browser/AI checks are listed in the report.
 
 ## Chain behavior
 
