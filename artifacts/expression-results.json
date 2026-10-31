@@ -1,0 +1,212 @@
+{
+  "at": "2026-10-31T13:47:46.800Z",
+  "kind": "simulated-animation-rehearsal",
+  "viewport": {
+    "width": 520,
+    "height": 950
+  },
+  "stage": "grown",
+  "expressiveness": "lively",
+  "checks": [
+    {
+      "index": 1,
+      "family": "curious",
+      "name": "Ear perk & head tilt",
+      "zh": "豎耳歪頭",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Ear perk & head tilt\n\nA new request! Pip perks up and tilts its head.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：豎耳歪頭\n\n有新請求！Pip 豎耳歪頭打招呼。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 2,
+      "family": "curious",
+      "name": "Peek & sniff",
+      "zh": "探頭嗅嗅",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Peek & sniff\n\nSomething new? Pip peeks and sniffs.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：探頭嗅嗅\n\n有新動靜？Pip 探頭聞聞。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 3,
+      "family": "curious",
+      "name": "Stand & wave",
+      "zh": "挺身揮爪",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Stand & wave\n\nA new request! Pip stands tall and waves.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：挺身揮爪\n\n有新請求！Pip 挺起身子揮爪。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 4,
+      "family": "pleased",
+      "name": "Paw claps & shoulders",
+      "zh": "拍爪扭肩",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Paw claps & shoulders\n\nBatch settled. Time for tiny paw claps.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：拍爪扭肩\n\n批次已結算，小爪爪拍一拍。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 5,
+      "family": "pleased",
+      "name": "Bounce & soft landing",
+      "zh": "輕跳落地",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Bounce & soft landing\n\nBatch settled. A little bounce, a soft landing.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：輕跳落地\n\n批次已結算，輕輕跳起再落地。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 6,
+      "family": "pleased",
+      "name": "Cheek paws & sway",
+      "zh": "捧頰搖擺",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Cheek paws & sway\n\nBatch settled. Happy paws and a gentle sway.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：捧頰搖擺\n\n批次已結算，捧著臉頰搖一搖。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 7,
+      "family": "celebrate",
+      "name": "Quarter twirl & return",
+      "zh": "轉身回望",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Quarter twirl & return\n\nCompleted blocks! A tiny twirl and back to you.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：轉身回望\n\n完整區塊完成！轉個小圈再看向你。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 8,
+      "family": "celebrate",
+      "name": "Victory & happy paws",
+      "zh": "勝利動爪",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Victory & happy paws\n\nCompleted blocks! Pip raises a victory paw.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：勝利動爪\n\n完整區塊完成！Pip 舉爪慶祝。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 9,
+      "family": "celebrate",
+      "name": "Two-step dance & bow",
+      "zh": "兩步舞鞠躬",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Two-step dance & bow\n\nCompleted blocks! Two little steps and a bow.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：兩步舞鞠躬\n\n完整區塊完成！小跳兩步再鞠躬。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 10,
+      "family": "join",
+      "name": "Tiny high-five",
+      "zh": "小爪擊掌",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Tiny high-five\n\nPaw to palm. A tiny high-five!\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：小爪擊掌\n\n爪爪碰手心，小小擊掌！\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 11,
+      "family": "join",
+      "name": "Cheek nuzzle",
+      "zh": "靠近蹭蹭",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Cheek nuzzle\n\nA little closer for a cheek nuzzle.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：靠近蹭蹭\n\n靠近一點，輕輕蹭蹭臉頰。\n\n僅預覽動作，沒有交易或獎勵。"
+    },
+    {
+      "index": 12,
+      "family": "join",
+      "name": "Shy dip & wave",
+      "zh": "害羞低頭揮爪",
+      "started": true,
+      "returnedToIdle": true,
+      "samplesAfterSelectionMs": [
+        600,
+        1350,
+        3300
+      ],
+      "finishedCheckedAtMs": 3900,
+      "englishCard": "Simulated rehearsal\n×\nSimulated · no chain confirmation\nAnimation rehearsal: Shy dip & wave\n\nA shy little dip, then a returning wave.\n\nAnimation preview only. No transaction or reward.",
+      "chineseCard": "模擬排練\n×\n模擬資料，未經鏈上確認\n動作排練：害羞低頭揮爪\n\n害羞低下頭，再輕輕揮爪回應。\n\n僅預覽動作，沒有交易或獎勵。"
+    }
+  ],
+  "careRewards": "unchanged",
+  "limitations": [
+    "Controlled browser clock; frames at 0.60, 1.35 and 3.30 seconds after selection.",
+    "A screenshot contact sheet is not video or a physical-device/frame-rate certification.",
+    "Network reads are blocked in this simulated rehearsal."
+  ],
+  "liveHistory": "unchanged",
+  "gallery": "artifacts/expression-gallery.jpg"
+}

@@ -1,0 +1,1344 @@
+{
+  "at": "2026-10-31T13:58:17.314983+00:00",
+  "kind": "worker-executed-check-evidence",
+  "scope": "Missing-evidence revision; accepted application source and export preserved.",
+  "conditions": {
+    "node": "24.21.0",
+    "npm": "11.19.0",
+    "playwright": "1.64.1",
+    "chromium": "156.0.8078.4",
+    "renderer": "headless Chromium; ANGLE/Vulkan SwiftShader; viewport emulation",
+    "fonts": "Temporary Noto Sans CJK TC plus Arial to Liberation Sans alias; no runtime font change.",
+    "preview": "Production dist served under /preview/ by bounded foreground scripts.",
+    "trust": "Worker results are not independent certification."
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "output": "> squeekchain-hamster-companion@1.1.0 build\n> node tools/build.mjs && node tools/verify-export.mjs\n\nBuilt production export: assets/code/studio-7AIYKIKA.js files: 109 bytes: 6656153\nExport integrity passed: 109 files, five GLBs, relative page URLs and share metadata.",
+    "finalExport": "Accepted export retained because no application source changed; external install path labels caused unrelated generated differences.",
+    "inventorySHA256": "2e7f778287b443f66759f8438a78947bbfd3b4d5dfd783c8ded25be067280a6c",
+    "entry": "assets/code/studio-PUQOYFUA.js",
+    "inventoryFiles": 109,
+    "inventoryBytes": 6654785
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exitCode": 0,
+    "modules": 2,
+    "output": "> squeekchain-hamster-companion@1.1.0 typecheck\n> node tools/typecheck.mjs\n\nTypecheck passed: 2 TypeScript modules",
+    "limitations": [
+      "Existing JavaScript is bundled and tested, not fully typechecked."
+    ]
+  },
+  "baseline": {
+    "referenceCommit": "b3f4b1ffee5121984de2ea349fce3a36919ede3c",
+    "files": [
+      {
+        "path": "audio-tests.mjs",
+        "upstreamGitBlobSHA1": "0541da3fd957e4f03d1fd750a40900479dd868ac",
+        "localGitBlobSHA1": "0541da3fd957e4f03d1fd750a40900479dd868ac",
+        "unchanged": true
+      },
+      {
+        "path": "chat-backend-tests.mjs",
+        "upstreamGitBlobSHA1": "57069c704f22119b26e6d7e03dbe21aafc308880",
+        "localGitBlobSHA1": "57069c704f22119b26e6d7e03dbe21aafc308880",
+        "unchanged": true
+      },
+      {
+        "path": "chat-tests.mjs",
+        "upstreamGitBlobSHA1": "65a3986eebd9f4c8f393651fcb4abde0cab64bed",
+        "localGitBlobSHA1": "65a3986eebd9f4c8f393651fcb4abde0cab64bed",
+        "unchanged": true
+      },
+      {
+        "path": "feeding-tests.mjs",
+        "upstreamGitBlobSHA1": "34e6ea844d24f7980d52577e767cf3008c6e2e00",
+        "localGitBlobSHA1": "34e6ea844d24f7980d52577e767cf3008c6e2e00",
+        "unchanged": true
+      },
+      {
+        "path": "growth-tests.mjs",
+        "upstreamGitBlobSHA1": "5b99fd7a5a8a16037c76e82355676c5ef7a29e29",
+        "localGitBlobSHA1": "5b99fd7a5a8a16037c76e82355676c5ef7a29e29",
+        "unchanged": true
+      },
+      {
+        "path": "hardening-tests.mjs",
+        "upstreamGitBlobSHA1": "6fc92a00e30e552a8995a7e757d5f55ca8fd2376",
+        "localGitBlobSHA1": "6fc92a00e30e552a8995a7e757d5f55ca8fd2376",
+        "unchanged": true
+      },
+      {
+        "path": "idle-growth-tests.mjs",
+        "upstreamGitBlobSHA1": "b90d8673130ce52ab401b802cc6ea1519bd505d8",
+        "localGitBlobSHA1": "b90d8673130ce52ab401b802cc6ea1519bd505d8",
+        "unchanged": true
+      },
+      {
+        "path": "idle-tests.mjs",
+        "upstreamGitBlobSHA1": "e37b8a2fac89f547879b649d6ca66cdcd143d436",
+        "localGitBlobSHA1": "e37b8a2fac89f547879b649d6ca66cdcd143d436",
+        "unchanged": true
+      },
+      {
+        "path": "life-tests.mjs",
+        "upstreamGitBlobSHA1": "36406d95d87b218320f2e280ca4c1a76f33c0643",
+        "localGitBlobSHA1": "36406d95d87b218320f2e280ca4c1a76f33c0643",
+        "unchanged": true
+      },
+      {
+        "path": "presence-tests.mjs",
+        "upstreamGitBlobSHA1": "347689e8ea27832eeefaae9e943026ee5ba25ed7",
+        "localGitBlobSHA1": "347689e8ea27832eeefaae9e943026ee5ba25ed7",
+        "unchanged": true
+      },
+      {
+        "path": "public-tests.mjs",
+        "upstreamGitBlobSHA1": "385eced4a1699dc57c47438090f0c799e413fc11",
+        "localGitBlobSHA1": "385eced4a1699dc57c47438090f0c799e413fc11",
+        "unchanged": true
+      },
+      {
+        "path": "rotation-tests.mjs",
+        "upstreamGitBlobSHA1": "bfc00f7420557c651b67f712259779fbdbf31afc",
+        "localGitBlobSHA1": "bfc00f7420557c651b67f712259779fbdbf31afc",
+        "unchanged": true
+      },
+      {
+        "path": "runtime-tests.mjs",
+        "upstreamGitBlobSHA1": "bcebc4baf428fa49fbd093c2c15fe22184f1625c",
+        "localGitBlobSHA1": "bcebc4baf428fa49fbd093c2c15fe22184f1625c",
+        "unchanged": true
+      },
+      {
+        "path": "touch-tests.mjs",
+        "upstreamGitBlobSHA1": "8dc1055886d58509994576394c71ce17e613240b",
+        "localGitBlobSHA1": "8dc1055886d58509994576394c71ce17e613240b",
+        "unchanged": true
+      }
+    ],
+    "upstreamTreeSHA1": "b3f4b1ffee5121984de2ea349fce3a36919ede3c",
+    "command": [
+      "node",
+      "--test",
+      "audio-tests.mjs",
+      "chat-backend-tests.mjs",
+      "chat-tests.mjs",
+      "feeding-tests.mjs",
+      "growth-tests.mjs",
+      "hardening-tests.mjs",
+      "idle-growth-tests.mjs",
+      "idle-tests.mjs",
+      "life-tests.mjs",
+      "presence-tests.mjs",
+      "public-tests.mjs",
+      "rotation-tests.mjs",
+      "runtime-tests.mjs",
+      "touch-tests.mjs"
+    ],
+    "exitCode": 0,
+    "output": "✔ audio preferences are bounded and independent; no autoplay/context/network on load (2.280461ms)\n✔ one context, one native music loop, independent gains, quiet mode and effect ducking (2.463315ms)\n✔ mute and hidden state stop effects; repeated resume never duplicates loops or replays old cues (3.862704ms)\n✔ another tab can pause audio but cannot auto-enable it or override an intentional mute (1.862103ms)\n✔ late decode after muting never starts a track; returning during a load can start the ready track (0.947292ms)\n✔ missing assets can retry without poisoning cache; unsupported audio cannot break care (2.223785ms)\n✔ only committed actions produce cues; ignored eating touches and reload snapshots stay quiet (1.338407ms)\n✔ audio sources have bounded PCM, no clipping, matching hashes and a smooth native loop seam (38.72816ms)\n✔ browser-native fetch and timer wrappers retain the global receiver (1.3732ms)\n✔ rapid inputs cannot exceed three sound-effect voices and unknown cues are ignored (0.766459ms)\n✔ music becomes ready without waiting for effects; warmup uses at most two downloads (1.69975ms)\n✔ unsupported lossless decoding falls back to WAV once and caches the result (0.99351ms)\n✔ cancel aborts the download; an immediate retry never reuses the cancelled promise (0.680822ms)\n✔ streamed reasoning markers and partial blocks never become a chat bubble (1.778937ms)\n✔ fast chat needs a compatible GPU; cached or explicitly chosen CPU avoids another model download (0.315243ms)\n✔ GPU context trimming preserves persona, examples and latest user message (3.195633ms)\n✔ compatibility retry is explicit and late progress from a stopped worker is ignored (0.605638ms)\n✔ first message waits for model; subsequent messages reuse it and reject concurrent sends (1.442503ms)\n✔ Stop and Clear isolate late responses and allow retry (0.373751ms)\n✔ errors and timeouts release controls without fake answers (20.877245ms)\n✔ bounded history preserves user content as data, language and pet context (1.481582ms)\n✔ mouth accepts nearby drops only, and rejects hidden, missing and invalid targets (1.743315ms)\n✔ chewing puffs and settles, food shrinks, reduced motion stops repetitive movement (1.018958ms)\n✔ accepted meal triggers eating once; cooldown, sleep, full and failed persistence cannot award a bite (4.077997ms)\n✔ five elapsed-time growth boundaries and accessory milestones (4.26081ms)\n✔ five distinct self-contained GLBs have valid geometry buffers and no external URIs (2.328973ms)\n✔ web character has no 2D geometry or view toggle (0.634112ms)\n✔ stale tabs serialize refresh+write; rewards and daily bonus are never lost or doubled (5.373881ms)\n✔ lock failure and unavailable locks do not create pretend saved progress (1.47363ms)\n✔ corrupted reload and quota failures preserve prior save and reject the command (2.938948ms)\n✔ profile persists with old v1 saves; unrelated care in another tab preserves it (1.03413ms)\n✔ sleep and games block unrelated cues and food; meal state is shared across tabs (5.802414ms)\n✔ repeated rewarded-cooldown contact still refreshes session chat context without a save (1.463185ms)\n✔ one visual priority determines animation and status, including an off-body drag (0.783245ms)\n✔ reduced eating pose stays completely static throughout the bite (1.52002ms)\n✔ BFCache cycles pause/resume once, final disposal is once and never resurrects (0.854302ms)\n✔ all five actual GLBs: combined offsets are finite and grounded; socket follows the same morphs (79.195148ms)\n✔ starting memory play reserves its cooldown across tabs before the first tap (3.086139ms)\n✔ idle time, repeated snapshots and split settlements give exactly the same growth (5.969895ms)\n✔ no interaction or completed wish can accelerate the growth clock (10.839398ms)\n✔ each absence caps at seven days, and capped time cannot be repeatedly claimed (1.012959ms)\n✔ sleep, background time and hunger do not stop growth; hunger takes hours (0.557216ms)\n✔ legacy migration preserves every stage, within-stage fraction, accessories and memories (4.323795ms)\n✔ clock rollback never duplicates time and invalid growth saves are preserved (0.928733ms)\n✔ two stale tabs settle the same elapsed time once inside the existing save lock (1.126359ms)\n✔ failed idle settlement is retryable without overwriting or double counting (0.383706ms)\n✔ new pets reach milestones at one, three, seven and twenty-one cumulative days (1.176915ms)\n✔ pet mode ignores background and shift; turn mode never releases a touch or hold (0.576204ms)\n✔ keyboard and animation mode use the same strict separation (0.452399ms)\n✔ idle waits, rests between actions and never repeats the immediately completed action (1.416675ms)\n✔ interaction interrupts immediately and resuming never catches up hidden or sleeping time (0.41334ms)\n✔ low energy selects calmer actions and all poses ease to neutral without invalid geometry scale (7.08023ms)\n✔ old save keeps growth, meals, and wardrobe while initializing care (3.266911ms)\n✔ care rewards resist repeated taps, daily wish bonus is once, progress survives next day (1.608503ms)\n✔ nap restores capped energy across reload, prevents food/play, wake and touches work (1.99975ms)\n✔ seed hunt hides answer, blocks early/invalid/duplicate rewards, can close or lose safely (6.138276ms)\n✔ failed saves do not grant bond, wish bonuses or end a successful hunt (0.770917ms)\n✔ low energy blocks active play but still allows comfort, touches reward without spam (1.379599ms)\n✔ chat gets real care context as allowlisted data, not instructions from storage (0.791376ms)\n✔ body strokes, stationary holds and background turns are distinct; release awards once (2.502093ms)\n✔ multi-pointer, cancelled contact and accidental quick swipe never become pet rewards (0.324195ms)\n✔ attention expires; sleep and reduced motion suppress active reflexes; blending is frame-rate independent (0.938408ms)\n✔ real five GLB vertex sets remain finite, subtly deformed, and grounded (66.854627ms)\n✔ stroke care remains rate-limited and cannot interrupt a committed meal (3.08681ms)\n✔ 3D ball approaches, receives a paw push, then rolls back without invalid positions (0.471127ms)\n✔ browser pet persists, reloads, rejects cooldown and awards memory game once (6.689274ms)\n✔ failed browser writes do not award progress; visitors use separate storage (0.638858ms)\n✔ public code has no local chat API or owner paths and does not silently fake live data (8.371086ms)\n✔ actual bundled Three quaternion blend preserves the requested target instead of freezing it (2.941853ms)\n✔ positive/negative turns, drag direction changes and Face me move the rendered orientation (1.328332ms)\n✔ sleeping, leaning and turning rotations blend across every axis and remain frame-rate independent (0.539069ms)\n✔ zero blend holds the old pose and reduced-motion full blend applies the new pose immediately (0.232349ms)\n✔ public session restores timers/channel/save after repeated page-cache cycles without duplication (39.933327ms)\n✔ all touch zones cycle through actions without granting repeated care rewards (3.984718ms)\n✔ three taps trigger alternating surprises; holds and waking are separate and invalid inputs rejected (3.810306ms)\n✔ drag hit zones and all poses are bounded, localized and honor reduced motion (2.51299ms)\nℹ tests 76\nℹ suites 0\nℹ pass 76\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 359.633235\n"
+  },
+  "nodeTests": {
+    "command": "npm test",
+    "exitCode": 0,
+    "tests": 112,
+    "passed": 112,
+    "failed": 0,
+    "skipped": 0,
+    "output": "> squeekchain-hamster-companion@1.1.0 test\n> node tools/run-tests.mjs\n\n✔ audio preferences are bounded and independent; no autoplay/context/network on load (3.204096ms)\n✔ one context, one native music loop, independent gains, quiet mode and effect ducking (3.025268ms)\n✔ mute and hidden state stop effects; repeated resume never duplicates loops or replays old cues (4.104116ms)\n✔ another tab can pause audio but cannot auto-enable it or override an intentional mute (1.259759ms)\n✔ late decode after muting never starts a track; returning during a load can start the ready track (7.929003ms)\n✔ missing assets can retry without poisoning cache; unsupported audio cannot break care (2.309533ms)\n✔ only committed actions produce cues; ignored eating touches and reload snapshots stay quiet (1.168702ms)\n✔ audio sources have bounded PCM, no clipping, matching hashes and a smooth native loop seam (59.264219ms)\n✔ browser-native fetch and timer wrappers retain the global receiver (2.018587ms)\n✔ rapid inputs cannot exceed three sound-effect voices and unknown cues are ignored (0.808203ms)\n✔ music becomes ready without waiting for effects; warmup uses at most two downloads (1.391976ms)\n✔ unsupported lossless decoding falls back to WAV once and caches the result (1.748893ms)\n✔ cancel aborts the download; an immediate retry never reuses the cancelled promise (0.631758ms)\n✔ recorded imd receipt decodes only its verified emitter and chain (8.346528ms)\n✔ recorded squeek receipt decodes only its verified emitter and chain (1.538418ms)\n✔ transaction evidence maps mainnet and Sepolia, rejecting malformed provenance (0.578148ms)\n✔ initial confirmed baseline does not scan or celebrate old chain history (2.198558ms)\n✔ a duplicate settlement is confirmed once, derives several blocks and survives reload (6.067742ms)\n✔ out-of-order settlement logs are sorted; zero-work settlement advances the frontier (7.890145ms)\n✔ settlement frontier gap rejects a partial range without advancing cursor or history (2.740149ms)\n✔ unconfirmed activity is excluded by the actual head-minus-policy block range (1.697566ms)\n✔ foreign provider chain cannot invalidate stored canonical history (1.328162ms)\n✔ provider disconnect backs off and reconnects without fabricated events (0.882545ms)\n✔ catch-up is bounded and skips an old backlog without popups (2.797155ms)\n✔ each catch-up page has at most 96 blocks (0.585839ms)\n✔ canonical reorg rolls back derived totals and retracts event claims (1.111697ms)\n✔ re-included transaction log updates provenance without celebrating twice (1.676886ms)\n✔ hidden tabs make no chain requests, and foreground resume remains available (0.21968ms)\n✔ receipt status or canonical hash mismatch cannot advance the consumer cursor (0.431216ms)\n✔ completed blocks use exact integer boundaries, including zero and multi-block deltas (0.168433ms)\n✔ a bounded burst groups only matching families, retains transaction provenance and waits for care (0.785108ms)\n✔ removed and stale events never start a celebration; queue stays capped at three (0.232538ms)\n✔ reorg removal also retracts pending grouped block totals (0.188072ms)\n✔ seeded variation is reproducible and never immediately repeats within an event family (0.560251ms)\n✔ all 12 sequences are distinct, bounded for five growth stages and return smoothly to idle (11.828001ms)\n✔ reduced motion is a static pose with no hopping, turning or particles (0.211357ms)\n✔ invitation requires a pet hit, expires quietly and cancels on another action (0.220231ms)\n✔ RPC is read only, rotates unavailable endpoints and respects rate-limit retry (28.567377ms)\n✔ the default RPC transport preserves the browser fetch receiver (0.270165ms)\n✔ a deep reorg marks unverifiable history unconfirmed and resets its block delta (1.261552ms)\n✔ repeated invitation touches stay in the reward-free expression director (0.165288ms)\n✔ streamed reasoning markers and partial blocks never become a chat bubble (1.528472ms)\n✔ fast chat needs a compatible GPU; cached or explicitly chosen CPU avoids another model download (0.246059ms)\n✔ GPU context trimming preserves persona, examples and latest user message (3.374762ms)\n✔ compatibility retry is explicit and late progress from a stopped worker is ignored (1.292518ms)\n✔ first message waits for model; subsequent messages reuse it and reject concurrent sends (2.188052ms)\n✔ Stop and Clear isolate late responses and allow retry (0.765638ms)\n✔ errors and timeouts release controls without fake answers (21.82164ms)\n✔ bounded history preserves user content as data, language and pet context (1.461552ms)\n✔ mouth accepts nearby drops only, and rejects hidden, missing and invalid targets (2.095544ms)\n✔ chewing puffs and settles, food shrinks, reduced motion stops repetitive movement (1.208382ms)\n✔ accepted meal triggers eating once; cooldown, sleep, full and failed persistence cannot award a bite (5.320169ms)\n✔ five elapsed-time growth boundaries and accessory milestones (2.955152ms)\n✔ five distinct self-contained GLBs have valid geometry buffers and no external URIs (2.342965ms)\n✔ web character has no 2D geometry or view toggle (2.112979ms)\n✔ stale tabs serialize refresh+write; rewards and daily bonus are never lost or doubled (3.412188ms)\n✔ lock failure and unavailable locks do not create pretend saved progress (0.632309ms)\n✔ corrupted reload and quota failures preserve prior save and reject the command (2.122192ms)\n✔ profile persists with old v1 saves; unrelated care in another tab preserves it (0.696334ms)\n✔ sleep and games block unrelated cues and food; meal state is shared across tabs (4.312599ms)\n✔ repeated rewarded-cooldown contact still refreshes session chat context without a save (1.172128ms)\n✔ one visual priority determines animation and status, including an off-body drag (0.400441ms)\n✔ reduced eating pose stays completely static throughout the bite (1.388672ms)\n✔ BFCache cycles pause/resume once, final disposal is once and never resurrects (0.756214ms)\n✔ all five actual GLBs: combined offsets are finite and grounded; socket follows the same morphs (93.698957ms)\n✔ starting memory play reserves its cooldown across tabs before the first tap (1.802554ms)\n✔ idle time, repeated snapshots and split settlements give exactly the same growth (6.123323ms)\n✔ no interaction or completed wish can accelerate the growth clock (8.642162ms)\n✔ each absence caps at seven days, and capped time cannot be repeatedly claimed (0.922955ms)\n✔ sleep, background time and hunger do not stop growth; hunger takes hours (0.562985ms)\n✔ legacy migration preserves every stage, within-stage fraction, accessories and memories (3.429594ms)\n✔ clock rollback never duplicates time and invalid growth saves are preserved (0.845328ms)\n✔ two stale tabs settle the same elapsed time once inside the existing save lock (1.631616ms)\n✔ failed idle settlement is retryable without overwriting or double counting (0.308904ms)\n✔ new pets reach milestones at one, three, seven and twenty-one cumulative days (0.952478ms)\n✔ pet mode ignores background and shift; turn mode never releases a touch or hold (0.512929ms)\n✔ keyboard and animation mode use the same strict separation (0.43426ms)\n✔ idle waits, rests between actions and never repeats the immediately completed action (1.512269ms)\n✔ interaction interrupts immediately and resuming never catches up hidden or sleeping time (0.464336ms)\n✔ low energy selects calmer actions and all poses ease to neutral without invalid geometry scale (8.55338ms)\n✔ old save keeps growth, meals, and wardrobe while initializing care (3.33357ms)\n✔ care rewards resist repeated taps, daily wish bonus is once, progress survives next day (2.441121ms)\n✔ nap restores capped energy across reload, prevents food/play, wake and touches work (2.226248ms)\n✔ seed hunt hides answer, blocks early/invalid/duplicate rewards, can close or lose safely (7.272639ms)\n✔ failed saves do not grant bond, wish bonuses or end a successful hunt (0.648232ms)\n✔ low energy blocks active play but still allows comfort, touches reward without spam (1.170295ms)\n✔ chat gets real care context as allowlisted data, not instructions from storage (0.649695ms)\n✔ body strokes, stationary holds and background turns are distinct; release awards once (3.704007ms)\n✔ multi-pointer, cancelled contact and accidental quick swipe never become pet rewards (0.353851ms)\n✔ attention expires; sleep and reduced motion suppress active reflexes; blending is frame-rate independent (0.813599ms)\n✔ real five GLB vertex sets remain finite, subtly deformed, and grounded (99.634238ms)\n✔ stroke care remains rate-limited and cannot interrupt a committed meal (8.796354ms)\n✔ 3D ball approaches, receives a paw push, then rolls back without invalid positions (0.509434ms)\n✔ browser pet persists, reloads, rejects cooldown and awards memory game once (19.212656ms)\n✔ failed browser writes do not award progress; visitors use separate storage (1.684867ms)\n✔ public code has no local chat API or owner paths and does not silently fake live data (15.713419ms)\n✔ changed SqueekCore implementation is rejected before any new history is projected (2.076134ms)\n✔ corrupted cursor storage resets to a fresh bounded baseline, not arbitrary JSON (0.349054ms)\n✔ HTTP Retry-After is bounded and no transaction method reaches a provider (30.925815ms)\n✔ chain modules do not import care save writers, wallet connectors or arbitrary event HTML (0.784286ms)\n✔ invalid entries in a valid chain cursor cannot poison recent history rendering (0.909214ms)\n✔ imd history persists the selected motion through save/reload without changing provenance (14.039657ms)\n✔ squeek history persists the selected motion through save/reload without changing provenance (1.29328ms)\n✔ actual bundled Three quaternion blend preserves the requested target instead of freezing it (1.481761ms)\n✔ positive/negative turns, drag direction changes and Face me move the rendered orientation (3.194923ms)\n✔ sleeping, leaning and turning rotations blend across every axis and remain frame-rate independent (0.477115ms)\n✔ zero blend holds the old pose and reduced-motion full blend applies the new pose immediately (0.223966ms)\n✔ public session restores timers/channel/save after repeated page-cache cycles without duplication (38.92349ms)\n✔ all touch zones cycle through actions without granting repeated care rewards (5.417155ms)\n✔ three taps trigger alternating surprises; holds and waking are separate and invalid inputs rejected (2.90752ms)\n✔ drag hit zones and all poses are bounded, localized and honor reduced motion (2.865749ms)\n✔ wheel telemetry makes zero hidden-tab polls and resumes once when visible (36.885323ms)\nℹ tests 112\nℹ suites 0\nℹ pass 112\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 600.624714"
+  },
+  "browser": {
+    "at": "2026-10-31T13:44:51.292Z",
+    "scope": "Production static export at /preview/, viewport emulation, software-rendered Chromium",
+    "checks": [
+      {
+        "name": "390 first screen contains the 3D product and all three food controls",
+        "passed": true,
+        "evidence": {
+          "x": 48,
+          "y": 757.1875,
+          "width": 294,
+          "height": 84.1875
+        }
+      },
+      {
+        "name": "No horizontal overflow at 320, 390, 768, 1440",
+        "passed": true
+      },
+      {
+        "name": "Keyboard feeding starts a committed meal and saves it once",
+        "passed": true
+      },
+      {
+        "name": "Narrow-screen pointer feeding reaches the projected mouth without sticky obstruction",
+        "passed": true
+      },
+      {
+        "name": "Turn, drag and Face me remain separate from care rewards",
+        "passed": true
+      },
+      {
+        "name": "Traditional Chinese rehearsal has a visible simulated badge on stage and card",
+        "passed": true
+      },
+      {
+        "name": "All 12 3D rehearsal sequences start with matching cards and grant zero care rewards",
+        "passed": true
+      },
+      {
+        "name": "Activity card retains keyboard focus beyond 8 seconds and Escape closes it",
+        "passed": true
+      },
+      {
+        "name": "Activity card retains pointer hover beyond its default lifetime",
+        "passed": true
+      },
+      {
+        "name": "Floating cards can be disabled independently of sound and live observation",
+        "passed": true
+      },
+      {
+        "name": "Sound popup keyboard open/close returns focus",
+        "passed": true
+      },
+      {
+        "name": "Five local growth models render after loading preserved-format saves",
+        "passed": true,
+        "evidence": [
+          "baby",
+          "young",
+          "junior",
+          "grown",
+          "star"
+        ]
+      },
+      {
+        "name": "Source/privacy route resolves under a gateway subpath and links genuine pinned GitHub resources",
+        "passed": true
+      },
+      {
+        "name": "Reduced-motion rehearsal uses static pose and no CSS entrance animation",
+        "passed": true
+      },
+      {
+        "name": "No JavaScript errors or missing local production resources",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "localFailures": [],
+    "limitations": [
+      "WebKit browser executable was not installed; no WebKit interaction result."
+    ]
+  },
+  "chainReplay": {
+    "at": "2026-10-31T13:45:14.661Z",
+    "kind": "historical-receipt-replay",
+    "checks": [
+      {
+        "name": "Confirmed baseline starts without historical celebrations",
+        "passed": true
+      },
+      {
+        "name": "Recorded IMD Requested log starts an actual curious motion and matching mainnet card in the renderer update",
+        "passed": true
+      },
+      {
+        "name": "Chain reaction neither changes care rewards nor steals focus",
+        "passed": true
+      },
+      {
+        "name": "Direct raycast invitation hit and repeated touch play reward-free join gestures",
+        "passed": true
+      },
+      {
+        "name": "The same confirmed request card localizes to Traditional Chinese",
+        "passed": true
+      },
+      {
+        "name": "Closing and reopening recent provenance does not replay the reaction",
+        "passed": true
+      },
+      {
+        "name": "390 card reserves its own space without covering the pet, mouth or food controls",
+        "passed": true,
+        "evidence": {
+          "food": {
+            "x": 48,
+            "y": 717.90625,
+            "width": 294,
+            "height": 87.1875
+          },
+          "face": {
+            "x": 32,
+            "y": 58.59375,
+            "width": 326,
+            "height": 200
+          },
+          "card": {
+            "x": 32,
+            "y": 387.390625,
+            "width": 326,
+            "height": 258.515625
+          }
+        }
+      },
+      {
+        "name": "Canonical reorg retracts the active card and stops the celebration",
+        "passed": true
+      },
+      {
+        "name": "A sleeping pet records an observed settlement without a premature activity card or forced wake",
+        "passed": true
+      },
+      {
+        "name": "Chat input focus keeps the queued reaction and card deferred",
+        "passed": true
+      },
+      {
+        "name": "Recorded zero-work BatchSettled advances the frontier and plays a pleased motion with a Sepolia testnet card",
+        "passed": true
+      },
+      {
+        "name": "Settlement card and exact event identifier localize to Traditional Chinese",
+        "passed": true
+      },
+      {
+        "name": "The keyboard invitation equivalent starts the same reward-free response",
+        "passed": true
+      },
+      {
+        "name": "No JavaScript errors in recorded-receipt replay",
+        "passed": true
+      }
+    ],
+    "limitations": [
+      "This run replays fixed public receipts through intercepted RPC responses. It does not prove a new event arrived during testing."
+    ],
+    "errors": []
+  },
+  "previousRevisionRegression": {
+    "at": "2026-10-31T13:40:52.122Z",
+    "mode": "regression",
+    "checks": [
+      {
+        "name": "Unavailable wheel message appears once and food fits 390",
+        "passed": true,
+        "evidence": [
+          {
+            "width": 390,
+            "speech": "Waiting for a fresh wheel reading.",
+            "reading": "",
+            "foodBottom": 819.375
+          },
+          {
+            "width": 1440,
+            "speech": "Waiting for a fresh wheel reading.",
+            "reading": "",
+            "foodBottom": 902.75
+          }
+        ]
+      },
+      {
+        "name": "Twelve scroll-to-Pip selections start their matching gestures",
+        "passed": true,
+        "evidence": {
+          "sequence": [
+            {
+              "requested": 0,
+              "actual": "0"
+            },
+            {
+              "requested": 1,
+              "actual": "1"
+            },
+            {
+              "requested": 2,
+              "actual": "2"
+            },
+            {
+              "requested": 3,
+              "actual": "3"
+            },
+            {
+              "requested": 4,
+              "actual": "4"
+            },
+            {
+              "requested": 5,
+              "actual": "5"
+            },
+            {
+              "requested": 6,
+              "actual": "6"
+            },
+            {
+              "requested": 7,
+              "actual": "7"
+            },
+            {
+              "requested": 8,
+              "actual": "8"
+            },
+            {
+              "requested": 9,
+              "actual": "9"
+            },
+            {
+              "requested": 10,
+              "actual": "10"
+            },
+            {
+              "requested": 11,
+              "actual": "11"
+            }
+          ],
+          "batches": [
+            [
+              {
+                "visible": true,
+                "top": 363.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -2904.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3233.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3292.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3292.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3358.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3358.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3424.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3424.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3490.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3490.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3572.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ],
+            [
+              {
+                "visible": false,
+                "top": -3572.8125
+              }
+            ],
+            [
+              {
+                "visible": true,
+                "top": 86.1875
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "name": "Final visible entry in an offscreen/onscreen batch resumes the renderer",
+        "passed": true,
+        "evidence": {
+          "requested": "2",
+          "actual": "2"
+        }
+      },
+      {
+        "name": "Resumed gesture finishes normally",
+        "passed": true,
+        "evidence": {
+          "variant": ""
+        }
+      },
+      {
+        "name": "Final offscreen entry still pauses; returning onscreen resumes pending work",
+        "passed": true
+      },
+      {
+        "name": "History retains the actual gesture in all three families and both languages",
+        "passed": true,
+        "evidence": [
+          {
+            "family": "curious",
+            "locale": "en",
+            "variant": 2,
+            "initial": "IMD / Ethereum mainnet×Confirmed · 3 blocks behind headNew IMD requestA new request! Pip stands tall and waves. A request is not a completed job.Request 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179Confirmed at 31/10/2026, 14:41:09View transaction 0x754069…9f21d5",
+            "reopened": "IMD / Ethereum mainnet×Confirmed · 3 blocks behind headNew IMD requestA new request! Pip stands tall and waves. A request is not a completed job.Request 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179Confirmed at 31/10/2026, 14:41:09View transaction 0x754069…9f21d5",
+            "savedVariant": 2,
+            "retained": true
+          },
+          {
+            "family": "curious",
+            "locale": "zh-Hant",
+            "variant": 2,
+            "initial": "IMD / Ethereum 主網×已確認，落後鏈頭 3 個區塊新的 IMD 請求有新請求！Pip 挺起身子揮爪。 請求不代表工作已完成。請求 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179確認於 2026/10/31 下午2:41:09查看交易 0x754069…9f21d5",
+            "reopened": "IMD / Ethereum 主網×已確認，落後鏈頭 3 個區塊新的 IMD 請求有新請求！Pip 挺起身子揮爪。 請求不代表工作已完成。請求 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179確認於 2026/10/31 下午2:41:09查看交易 0x754069…9f21d5",
+            "savedVariant": 2,
+            "retained": true
+          },
+          {
+            "family": "pleased",
+            "locale": "en",
+            "variant": 5,
+            "initial": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind headSqueekchain batch settledBatch settled. Happy paws and a gentle sway. A settlement is not a wallet payout.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0",
+            "reopened": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind headSqueekchain batch settledBatch settled. Happy paws and a gentle sway. A settlement is not a wallet payout.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0",
+            "savedVariant": 5,
+            "retained": true
+          },
+          {
+            "family": "pleased",
+            "locale": "zh-Hant",
+            "variant": 5,
+            "initial": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊Squeekchain 批次已結算批次已結算，捧著臉頰搖一搖。 結算不代表錢包收益。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0",
+            "reopened": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊Squeekchain 批次已結算批次已結算，捧著臉頰搖一搖。 結算不代表錢包收益。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0",
+            "savedVariant": 5,
+            "retained": true
+          },
+          {
+            "family": "celebrate",
+            "locale": "en",
+            "variant": 8,
+            "initial": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind head2 Squeek blocks completedCompleted blocks! Two little steps and a bow. Derived from settled cumulative block units.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0",
+            "reopened": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind head2 Squeek blocks completedCompleted blocks! Two little steps and a bow. Derived from settled cumulative block units.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0",
+            "savedVariant": 8,
+            "retained": true
+          },
+          {
+            "family": "celebrate",
+            "locale": "zh-Hant",
+            "variant": 8,
+            "initial": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊2 個 Squeek 區塊完成完整區塊完成！小跳兩步再鞠躬。 由已結算累積單位推算。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0",
+            "reopened": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊2 個 Squeek 區塊完成完整區塊完成！小跳兩步再鞠躬。 由已結算累積單位推算。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0",
+            "savedVariant": 8,
+            "retained": true
+          }
+        ]
+      },
+      {
+        "name": "Observed-only history never invents a played gesture",
+        "passed": true,
+        "evidence": [
+          {
+            "family": "curious",
+            "locale": "en",
+            "observedOnly": true,
+            "legacyPlayed": false,
+            "text": "IMD / Ethereum mainnet×Confirmed · 3 blocks behind headNew IMD requestA request is not a completed job.Request 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179Confirmed at 31/10/2026, 14:41:09View transaction 0x754069…9f21d5Observed; reaction not played.",
+            "neutral": true
+          },
+          {
+            "family": "curious",
+            "locale": "zh-Hant",
+            "observedOnly": true,
+            "legacyPlayed": false,
+            "text": "IMD / Ethereum 主網×已確認，落後鏈頭 3 個區塊新的 IMD 請求請求不代表工作已完成。請求 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179確認於 2026/10/31 下午2:41:09查看交易 0x754069…9f21d5已觀測，尚未播放動作。",
+            "neutral": true
+          },
+          {
+            "family": "curious",
+            "locale": "en",
+            "observedOnly": true,
+            "legacyPlayed": true,
+            "text": "IMD / Ethereum mainnet×Confirmed · 3 blocks behind headNew IMD requestA request is not a completed job.Request 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179Confirmed at 31/10/2026, 14:41:09View transaction 0x754069…9f21d5",
+            "neutral": true
+          },
+          {
+            "family": "curious",
+            "locale": "zh-Hant",
+            "observedOnly": true,
+            "legacyPlayed": true,
+            "text": "IMD / Ethereum 主網×已確認，落後鏈頭 3 個區塊新的 IMD 請求請求不代表工作已完成。請求 0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179確認於 2026/10/31 下午2:41:09查看交易 0x754069…9f21d5",
+            "neutral": true
+          },
+          {
+            "family": "pleased",
+            "locale": "en",
+            "observedOnly": true,
+            "legacyPlayed": false,
+            "text": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind headSqueekchain batch settledA settlement is not a wallet payout.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0Observed; reaction not played.",
+            "neutral": true
+          },
+          {
+            "family": "pleased",
+            "locale": "zh-Hant",
+            "observedOnly": true,
+            "legacyPlayed": false,
+            "text": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊Squeekchain 批次已結算結算不代表錢包收益。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0已觀測，尚未播放動作。",
+            "neutral": true
+          },
+          {
+            "family": "pleased",
+            "locale": "en",
+            "observedOnly": true,
+            "legacyPlayed": true,
+            "text": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind headSqueekchain batch settledA settlement is not a wallet payout.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0",
+            "neutral": true
+          },
+          {
+            "family": "pleased",
+            "locale": "zh-Hant",
+            "observedOnly": true,
+            "legacyPlayed": true,
+            "text": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊Squeekchain 批次已結算結算不代表錢包收益。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0",
+            "neutral": true
+          },
+          {
+            "family": "celebrate",
+            "locale": "en",
+            "observedOnly": true,
+            "legacyPlayed": false,
+            "text": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind head2 Squeek blocks completedDerived from settled cumulative block units.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0Observed; reaction not played.",
+            "neutral": true
+          },
+          {
+            "family": "celebrate",
+            "locale": "zh-Hant",
+            "observedOnly": true,
+            "legacyPlayed": false,
+            "text": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊2 個 Squeek 區塊完成由已結算累積單位推算。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0已觀測，尚未播放動作。",
+            "neutral": true
+          },
+          {
+            "family": "celebrate",
+            "locale": "en",
+            "observedOnly": true,
+            "legacyPlayed": true,
+            "text": "Squeekchain / Sepolia testnet×Confirmed · 12 blocks behind head2 Squeek blocks completedDerived from settled cumulative block units.Round 1973Confirmed at 31/10/2026, 14:41:09View transaction 0x502d21…d20eb0",
+            "neutral": true
+          },
+          {
+            "family": "celebrate",
+            "locale": "zh-Hant",
+            "observedOnly": true,
+            "legacyPlayed": true,
+            "text": "Squeekchain / Sepolia 測試網×已確認，落後鏈頭 12 個區塊2 個 Squeek 區塊完成由已結算累積單位推算。輪次 1973確認於 2026/10/31 下午2:41:09查看交易 0x502d21…d20eb0",
+            "neutral": true
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "accessibility": {
+    "at": "2026-10-31T13:45:13.442Z",
+    "checks": [
+      {
+        "name": "English initial 390",
+        "passes": 29,
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "violations": 0
+      },
+      {
+        "name": "Traditional Chinese initial 390",
+        "passes": 29,
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "violations": 0
+      },
+      {
+        "name": "Traditional Chinese simulated activity card 390",
+        "passes": 29,
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "nodes": 9
+          }
+        ],
+        "violations": 0
+      },
+      {
+        "name": "Activity card visible keyboard focus",
+        "passed": true,
+        "style": {
+          "style": "solid",
+          "width": "3px",
+          "color": "rgb(117, 75, 19)"
+        }
+      },
+      {
+        "name": "Sound preferences open 390",
+        "passes": 29,
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "nodes": 14
+          }
+        ],
+        "violations": 0
+      },
+      {
+        "name": "English desktop 1440",
+        "passes": 29,
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "nodes": 11
+          }
+        ],
+        "violations": 0
+      },
+      {
+        "name": "200% root text size reflow",
+        "passed": true
+      }
+    ],
+    "violations": [],
+    "limitations": [
+      "Automated axe checks and keyboard interaction are not a screen-reader session.",
+      "390px viewport is not a physical phone or browser-native zoom."
+    ],
+    "timing": {
+      "samples": 44,
+      "medianMs": 23.800000190734863,
+      "p95Ms": 31.699999809265137,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "note": "RequestAnimationFrame delivery on this headless software renderer; not a physical-device FPS claim."
+    }
+  },
+  "designProbe": {
+    "command": "node .imd/reads/skills/design-critic/scripts/taste.mjs --out test/scratch/taste --offline",
+    "at": "2026-10-31T13:45:27.608Z",
+    "processExitCode": 0,
+    "passed": 15,
+    "total": 16,
+    "checks": [
+      {
+        "name": "render",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 11542,
+        "output": "renders, no script errors or missing local files\nexternal hosts: ethereum-rpc.publicnode.com, ethereum-sepolia-rpc.publicnode.com, api.squeekchain.com"
+      },
+      {
+        "name": "layout",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "no horizontal scroll at 320, 390 or 1440\nno text box overlaps another\nno floating control covers text\nno text cut off by overflow: hidden"
+      },
+      {
+        "name": "targets",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "all 40 controls at least 24px or spaced at 390\n16 under the 44px comfortable size"
+      },
+      {
+        "name": "contrast",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "all measured text meets 4.5:1 (3:1 large)"
+      },
+      {
+        "name": "casing",
+        "passed": false,
+        "exitCode": 1,
+        "durationMs": 0,
+        "output": "1 all-caps text boxes in content:\n1440px: #connection \"SOURCE OFFLINE\""
+      },
+      {
+        "name": "tracking",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "letter-spacing natural in content (display type may run tight)"
+      },
+      {
+        "name": "eyebrows",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 2,
+        "output": "no kicker labels above headings"
+      },
+      {
+        "name": "type-sizes",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "390: 5 sizes in use, 6 with one-offs (10px×6, 12px×51, 14px×29, 16px×4, 20px×2, 28px×1)\n1440: 5 sizes in use, 6 with one-offs (11px×6, 12px×50, 14px×31, 16px×5, 20px×2, 40px×1)\nbar: 6 sizes used more than once, 8 counting one-offs, per width"
+      },
+      {
+        "name": "type-faces",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "families (2): arial, consolas\nweights (3): 400, 600, 700"
+      },
+      {
+        "name": "glyphs",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "no em dashes or emoji in text"
+      },
+      {
+        "name": "slogans",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "1 two-beat lines; a stack is four or more, so keep the best and cut the rest:\n\"A little company. A little squeek.\" (#main > section.intro:nth-of-type(1) > h1)"
+      },
+      {
+        "name": "repetition",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 1,
+        "output": "no repeated lines"
+      },
+      {
+        "name": "copy-budget",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 1,
+        "output": "prose on the first screen: 33 words at 390 (bar 60), 70 at 1440 (bar 90)\nall words on the first screen: 67 at 390, 140 at 1440\nwhole page: 530 words, 345 of them prose"
+      },
+      {
+        "name": "chrome",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "border and shadow together: 0\ncards inside cards: 0\ngradient text: 0"
+      },
+      {
+        "name": "motion",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "transition: all on 0 elements\nendless animations: 0; still running with reduced motion: 0"
+      },
+      {
+        "name": "share",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "title \"Squeekchain · Companion Studio\", favicon, og:title, og:image, description"
+      }
+    ],
+    "pageErrors": [],
+    "scope": "Configured offline probe at 320, 390, 1440 CSS pixels and reduced motion.",
+    "retainedFinding": "Existing SOURCE OFFLINE status casing; no product-copy change in this revision."
+  },
+  "cardCaptures": {
+    "at": "2026-10-31T13:47:09.778Z",
+    "kind": "simulated-bilingual-card-capture",
+    "checks": [
+      {
+        "index": 1,
+        "name": "Ear perk & head tilt",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Peek & sniff",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Stand & wave",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Paw claps & shoulders",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Bounce & soft landing",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Cheek paws & sway",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "Quarter twirl & return",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "name": "Victory & happy paws",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "Two-step dance & bow",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "Tiny high-five",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "name": "Cheek nuzzle",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "name": "Shy dip & wave",
+        "locales": [
+          {
+            "lang": "en",
+            "captionMatched": true,
+            "source": "simulated"
+          },
+          {
+            "lang": "zh-Hant",
+            "captionMatched": true,
+            "source": "simulated"
+          }
+        ]
+      }
+    ],
+    "liveNetworkRequests": "blocked",
+    "careRewards": "unchanged",
+    "liveHistory": "unchanged",
+    "image": "artifacts/card-gallery.jpg"
+  },
+  "aiActual": {
+    "at": "2026-10-31T13:41:40.745Z",
+    "kind": "actual-browser-AI-attempt",
+    "viewport": {
+      "width": 1100,
+      "height": 900
+    },
+    "modelBudgetSeconds": 180,
+    "states": [
+      {
+        "seconds": 0,
+        "status": "Getting Pip ready…"
+      },
+      {
+        "seconds": 1,
+        "status": "Getting Pip ready… Downloaded 9 MB / ~650 MB"
+      },
+      {
+        "seconds": 2,
+        "status": "Getting Pip ready… Downloaded 45 MB / ~650 MB"
+      },
+      {
+        "seconds": 3,
+        "status": "Getting Pip ready… Downloaded 104 MB / ~650 MB"
+      },
+      {
+        "seconds": 4,
+        "status": "Getting Pip ready… Downloaded 155 MB / ~650 MB"
+      },
+      {
+        "seconds": 5,
+        "status": "Getting Pip ready… Downloaded 202 MB / ~650 MB"
+      },
+      {
+        "seconds": 6,
+        "status": "Getting Pip ready… Downloaded 251 MB / ~650 MB"
+      },
+      {
+        "seconds": 7,
+        "status": "Getting Pip ready… Downloaded 297 MB / ~650 MB"
+      },
+      {
+        "seconds": 8,
+        "status": "Getting Pip ready… Downloaded 355 MB / ~650 MB"
+      },
+      {
+        "seconds": 9,
+        "status": "Getting Pip ready… Downloaded 406 MB / ~650 MB"
+      },
+      {
+        "seconds": 10,
+        "status": "Getting Pip ready… Downloaded 462 MB / ~650 MB"
+      },
+      {
+        "seconds": 11,
+        "status": "Getting Pip ready… Downloaded 508 MB / ~650 MB"
+      },
+      {
+        "seconds": 12,
+        "status": "Getting Pip ready… Downloaded 564 MB / ~650 MB"
+      },
+      {
+        "seconds": 13,
+        "status": "Getting Pip ready… Downloaded 623 MB / ~650 MB"
+      },
+      {
+        "seconds": 14,
+        "status": "Getting Pip ready… Downloaded 627 MB / ~650 MB"
+      },
+      {
+        "seconds": 21,
+        "status": "Pip is thinking…"
+      },
+      {
+        "seconds": 39,
+        "status": "Ready · AI on this device"
+      }
+    ],
+    "errors": [],
+    "consoleErrors": [],
+    "networkFailures": [],
+    "limitations": [],
+    "webgpu": {
+      "api": true,
+      "adapter": false,
+      "shaderF16": false
+    },
+    "outcome": "reply-visible",
+    "visibleMessages": "Pip\n\nHi, I’m Pip! What’s on your mind today?\n\nYou\n\nHi Pip! Say hello in one short sentence.\n\nPip\n\nHello there! I'm going to pull my tiny blanket closer for you. What's on your mind? Let me know if there's anything special! 🌸",
+    "initialCompleted": true,
+    "cachedReload": {
+      "completed": true,
+      "seconds": 29,
+      "onnxNetworkRequests": 1,
+      "weightTransfers": [
+        {
+          "url": "https://huggingface.co/onnx-community/Qwen3-0.6B-ONNX/resolve/58ca03a5e7b354b480b1a82b34bde8dc7b854cc0/onnx/model_quantized.onnx",
+          "sizes": {
+            "requestBodySize": 0,
+            "requestHeadersSize": 632,
+            "responseBodySize": 1058,
+            "responseHeadersSize": 0
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "cacheStorage": {
+        "names": [
+          "transformers-cache"
+        ],
+        "onnxEntries": []
+      },
+      "status": "準備好了 · AI 在此裝置執行",
+      "visibleMessages": "Pip\n\n嗨，我是 Pip！今天有什麼想跟我分享的？\n\n你\n\n嗨，請用一句繁體中文打招呼。\n\nPip\n\n您好！需要我多陪伴呢～"
+    },
+    "stopDuringGeneration": "已停止。可以再試一次，已快取的檔案可重用。",
+    "noLateTokensAfterStop": true,
+    "retryStarted": "正在準備 Pip… 已下載 9 MB / ~650 MB",
+    "noReasoningMarkers": true,
+    "finalStatus": "已停止。可以再試一次，已快取的檔案可重用。",
+    "compatibilityOffered": false,
+    "retryOffered": true
+  },
+  "aiControlledFailure": {
+    "at": "2026-10-31T13:41:41.972Z",
+    "kind": "controlled-browser-AI-failure-and-cancellation",
+    "checks": [
+      {
+        "name": "Blocked model download shows retry/compatibility while feeding remains usable",
+        "passed": true
+      },
+      {
+        "name": "Stop cancels real pending model setup with no late reply",
+        "passed": true
+      }
+    ]
+  },
+  "rehearsal": "Per-gesture raw text and start/finish results are in expression-results.json; no live event/reward claim.",
+  "networkReads": "Dated fresh contributor-transport observations and canonical historical re-reads are in live-read.json. Configured public provider names are source labels, not direct-browser availability proof.",
+  "environmentCorrections": [
+    {
+      "observation": "Chinese glyphs unavailable in initial screenshots",
+      "action": "Installed test-only Noto Sans CJK TC outside repository and recaptured."
+    },
+    {
+      "observation": "First isolated font configuration selected an unsuitable Latin font and failed 390 first-screen assertion",
+      "action": "Restored Arial-to-Liberation Sans test-font alias; full 15-check browser suite passed afterward. No site source changed."
+    }
+  ],
+  "artifactIntegrity": [
+    {
+      "path": "artifacts/expression-gallery.jpg",
+      "bytes": 159068,
+      "sha256": "fb62e9a50a1c01923dea04728ac0e648ae6cd377459a427e0c435fec21ce0fb9"
+    },
+    {
+      "path": "artifacts/expression-results.json",
+      "bytes": 9117,
+      "sha256": "f921310cd8ec2df58c6fa152388f26a389d753fe1018271228784f619e28a184"
+    },
+    {
+      "path": "artifacts/card-gallery.jpg",
+      "bytes": 239070,
+      "sha256": "f5c63e03de1cec8b842e08b254d666edae8b14f99d03871d15c4a75e0f6d114c"
+    },
+    {
+      "path": "artifacts/responsive-gallery.jpg",
+      "bytes": 132507,
+      "sha256": "db3b58bebf60f629a573b289b4404bbf0ff4e756ab48305e5f7ff17769031a21"
+    },
+    {
+      "path": "artifacts/live-read.json",
+      "bytes": 3076,
+      "sha256": "3a290712b96a6392e9f25b4453dee05eeb9d2a1864b10c2f3e2d5e0e42b3b8f4"
+    }
+  ]
+}

@@ -39,6 +39,8 @@ The scripts manage their own temporary preview servers and close them. Browser a
 
 Actual worker results and coverage limits: [validation report](artifacts/validation.md), [implemented design](DESIGN.md), [chain manifest](docs/chain/manifest.json), [gesture gallery](artifacts/expression-gallery.jpg). The supplied 76 tests remain unchanged and are part of the larger test suite. Browser replay tests use recorded public receipts and explicitly report that they are historical replay, not newly arriving live events.
 
+Evidence regenerated on 31 October 2026 is included in the submission: [executed check results](artifacts/check-results.json), [dated reads of both networks](artifacts/live-read.json), [24 bilingual rehearsal cards](artifacts/card-gallery.jpg) and [responsive screenshots](artifacts/responsive-gallery.jpg). All 76 pinned baseline tests and 112 total tests passed. The report records browser/AI conditions, the 15/16 design-probe result and unperformed checks. Named evidence files are explicitly allowed by `.gitignore` within the existing 845,000-byte artifacts budget.
+
 The revision fixes batched canvas visibility, preserves each played gesture in recent history, and removes the repeated unavailable wheel message. The gallery shows three captured phases of each of the twelve simulated sequences; [its recorded checks](artifacts/expression-results.json) include the English and Traditional Chinese cards. The budget check requires the report and gallery to exist and be nonempty before delivery. Browser scripts require the Playwright browser package; unperformed browser/AI checks are listed in the report.
 
 ## Chain behavior

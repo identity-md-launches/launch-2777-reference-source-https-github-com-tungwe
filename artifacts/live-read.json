@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-31T13:41:39.865Z",
+  "kind": "live-public-RPC-observation",
+  "sources": [
+    {
+      "currentLogRead": {
+        "confirmedBlock": 26313106,
+        "matchingLogs": 0
+      },
+      "historicalRead": {
+        "kind": "historical-event-verified-during-live-read",
+        "transactionHash": "0x754069ff3e07dc637be4cc27d0985c13335e488dacd22a1460da6d580d9f21d5",
+        "status": "0x1",
+        "blockNumber": 26312391,
+        "canonical": true,
+        "decoded": [
+          {
+            "chainId": 1,
+            "source": "imd",
+            "blockNumber": 26312391,
+            "blockHash": "0x007221ab1170c7b4be80e6fde27e9fa285e1bf7ead193c78604e5d5cf8dcd3f4",
+            "transactionHash": "0x754069ff3e07dc637be4cc27d0985c13335e488dacd22a1460da6d580d9f21d5",
+            "transactionIndex": 107,
+            "logIndex": 434,
+            "removed": false,
+            "type": "request",
+            "identifier": "0x52d5dfa2cd3c79e5e0938bfd6994de7a548e9c650b0968ea8530059f27741179",
+            "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000"
+          }
+        ]
+      },
+      "source": "imd",
+      "chainId": 1,
+      "status": "watching",
+      "error": "",
+      "head": 26313109,
+      "cursor": {
+        "number": 26313106,
+        "hash": "0xa8d8fdd1a5ee21a916e184f07a9f2cf83442c2a4fd7d5167a44505e24d546f3d",
+        "units": "0",
+        "round": "0"
+      },
+      "events": [],
+      "endpoints": [
+        "https://ethereum-rpc.publicnode.com",
+        "https://eth.llamarpc.com"
+      ]
+    },
+    {
+      "currentLogRead": {
+        "confirmedBlock": 12034188,
+        "matchingLogs": 0
+      },
+      "historicalRead": {
+        "kind": "historical-event-verified-during-live-read",
+        "transactionHash": "0x502d216baff7732ac31ab59b8e3b44911b33834c6b3ca5ad3b7e1c18fbd20eb0",
+        "status": "0x1",
+        "blockNumber": 11999145,
+        "canonical": true,
+        "decoded": [
+          {
+            "chainId": 11155111,
+            "source": "squeek",
+            "blockNumber": 11999145,
+            "blockHash": "0xcecd5f85e0422c8802c555bfc6614b5bc71fdc204a0e656dd8d49d61068bac47",
+            "transactionHash": "0x502d216baff7732ac31ab59b8e3b44911b33834c6b3ca5ad3b7e1c18fbd20eb0",
+            "transactionIndex": 148,
+            "logIndex": 431,
+            "removed": false,
+            "type": "settlement",
+            "identifier": "1973",
+            "round": "1973",
+            "previousRound": "1972",
+            "units": "13095604188187",
+            "activeRounds": "0"
+          }
+        ]
+      },
+      "source": "squeek",
+      "chainId": 11155111,
+      "status": "watching",
+      "error": "",
+      "head": 12034200,
+      "cursor": {
+        "number": 12034188,
+        "hash": "0xcdfc1aeb846babffa3bda6a67f8a56a2cdfa5dd40b05da0dc069f77b63524df2",
+        "units": "13095604188187",
+        "round": "1973"
+      },
+      "events": [],
+      "endpoints": [
+        "https://ethereum-sepolia-rpc.publicnode.com",
+        "https://0xrpc.io/sep"
+      ]
+    }
+  ]
+}

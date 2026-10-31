@@ -12,3 +12,18 @@ node_modules/
 *.log
 .DS_Store
 test/scratch/
+
+# Submitted evidence: artifacts/ has an 845,000-byte budget in docs/SUBMISSION_BUDGET.md.
+# Keep the named deliverables eligible even when a local exclude ignores artifacts/.
+!artifacts/
+!artifacts/validation.md
+!artifacts/expression-gallery.jpg
+!artifacts/expression-results.json
+!artifacts/live-read.json
+!artifacts/check-results.json
+!artifacts/card-gallery.jpg
+!artifacts/responsive-gallery.jpg
+!artifacts/submission-summary.json
+
+# Revision response: at most 4,096 bytes within the remaining-paths budget.
+!/.imd-responses.json
